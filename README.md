@@ -6,3 +6,6 @@ More Info: https://developer.chrome.com/extensions/getstarted#unpacked
 
 License is GNU General Public License version 3, as noted in license.txt.
 https://www.gnu.org/licenses/gpl.html
+
+There is also an "unofficial" branch that aims to disable analytics.
+https://github.com/NullNoname/chromarks/tree/unofficial
