@@ -16,9 +16,10 @@ This branch is mirror of Chromarks 2.6.0 which added bunch of dangerous permissi
 * The following permissions are added which is a very dangerous sign: `[ "activeTab", "alarms", "browsingData", "clipboardWrite", "contextMenus", "cookies", "declarativeContent", "fontSettings", "gcm", "identity", "idle", "management", "notifications", "pageCapture", "power", "proxy", "sessions", "system.cpu", "system.display", "system.memory", "system.storage", "tabCapture", "tts", "unlimitedStorage", "webRequest", "webRequestBlocking", "*://*/*" ]`
 * Offical site URL changed from chromarks.COM to chromarks.NET. The .NET site has nothing but a link to chrome store (no update history or anything) which is a pretty bad sign.
 * background.js is heavily modified. In 2.5.0 it contained a code to open update history page after updating the extension to a new version. In 2.6.0 it contains some codes that may send your bookmark URL to brainlog.top, clearbrain.top, and/or lookforward.top in a regular HTTP. brainlog.top is accessed when the extension is installed and this URL returns some javascript codes that can possibly used for malicious purpose.
+* Javascript eval() is completely allowed in manifest.json (unsafe-eval), which can be used to execute Javascript codes fetched from outside. Google strongly discourage this setting: https://developer.chrome.com/extensions/contentSecurityPolicy#relaxing-eval
 * license.txt is removed. Fortunately the options menu still states it's GPLv3.
 * content.js is added, which contain codes that injects the annoying 'Page is present in your bookmarks' notification to the pages you are browsing. Why this "feature" was added is unclear, other than demonstrating the ability of code injecting.
-* Options are not saved, limiting actual usefulness of the extension.
+* Options are not saved. The Save button to actually save your changes is missing.
 
 ## Known GOOD change
 * Most Javascript files and CSS files have human-friendly indent now.
