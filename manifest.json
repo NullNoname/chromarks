@@ -8,7 +8,6 @@
       "default_popup": "index.html",
       "default_title": "__MSG_extDefaultTitle__"
    },
-   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
    "default_locale": "en",
    "description": "__MSG_extDescription__",
    "icons": {
@@ -16,7 +15,6 @@
       "16": "icons/icon-16.png",
       "48": "icons/icon-48.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhBMV8yPSrExsfGQ51bFcQMcXC/rEsZMnl+yZFh8GkBb/fBevTnemiruBOoOzYtsk3MYixAtrfg2PofaiYrvJemb8V88l7vCtmvqQ97xZ7QWgN4HbQzc3CGloKx5dntVLpULZafpCi1EFvqNBMlaDjVnZVIKMo8KxMVEiFkkosJQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "40",
    "name": "__MSG_extName__",
@@ -26,6 +24,5 @@
    },
    "permissions": [ "tabs", "bookmarks", "storage", "chrome://favicon/" ],
    "short_name": "__MSG_extShortName__",
-   "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "2.5.0"
 }
