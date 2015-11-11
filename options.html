@@ -9,51 +9,51 @@
     <body>
         <nav id="nav">
             <ul>
-                <li><a id="bookmarksTab" href="#bookmarks" data-text="optionsBookmarks"></a></li>
-                <li><a id="viewTab" href="#view" data-text="optionsView"></a></li>
-                <li><a id="aboutTab" href="#about" data-text="optionsAbout"></a></li>
+                <li><a id="bookmarksTab" href="#bookmarks">Bookmarks</a></li>
+                <li><a id="viewTab" href="#view">View</a></li>
+                <li><a id="aboutTab" href="#about">About</a></li>
             </ul>
         </nav>
         <section id="content">
             <div id="bookmarks">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab" data-text="optionsBookmarksOpenNewTab"></label>
+                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab">Open in New Tab:</label>
                         <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen" data-text="optionsBookmarksKeepPopupOpen"></label>
+                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen">Keep Popup Open:</label>
                         <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSortByLabel" for="bookmarksSortBy" data-text="optionsBookmarksSortBy"></label>
+                        <label id="bookmarksSortByLabel" for="bookmarksSortBy">Sort By:</label>
                         <select name="bookmarksSortBy" id="bookmarksSortBy">
-                            <option id="bookmarksSortByNone" value="none" data-text="optionsBookmarksSortByNone"></option>
-                            <option id="bookmarksSortByName" value="text" data-text="optionsBookmarksSortByName"></option>
-                            <option id="bookmarksSortByDate" value="date" data-text="optionsBookmarksSortByDate"></option>
+                            <option id="bookmarksSortByNone" value="none">None</option>
+                            <option id="bookmarksSortByName" value="text">Name</option>
+                            <option id="bookmarksSortByDate" value="date">Date</option>
                         </select>
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder" data-text="optionsBookmarksSortOrder"></label>
+                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder">Sort Order:</label>
                         <select name="bookmarksSortOrder" id="bookmarksSortOrder">
-                            <option id="bookmarksSortOrderAscending" value="ASC" data-text="optionsBookmarksSortOrderAscending"></option>
-                            <option id="bookmarksSortOrderDescending" value="DESC" data-text="optionsBookmarksSortOrderDescending"></option>
+                            <option id="bookmarksSortOrderAscending" value="ASC">Ascending</option>
+                            <option id="bookmarksSortOrderDescending" value="DESC">Descending</option>
                         </select>
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons" data-text="optionsBookmarksShowFavIcons"></label>
+                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons">Show FavIcons:</label>
                         <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips" data-text="optionsBookmarksShowTooltips"></label>
+                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips">Show Tooltips:</label>
                         <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState" data-text="optionsBookmarksSaveTreeState"></label>
+                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState">Save Tree State:</label>
                         <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar" data-text="optionsBookmarksOpenBookmarksBar"></label>
+                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar">Open "Bookmarks bar":</label>
                         <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar">
                     </div>
                 </div>
@@ -61,11 +61,11 @@
             <div id="view">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="viewWidthLabel" for="viewWidth" data-text="optionsViewPopupWidth"></label>
+                        <label id="viewWidthLabel" for="viewWidth">Popup Width (px):</label>
                         <input type="number" min="180" max="800" step="1" name="viewWidth" id="viewWidth" /><span> (180 - 800)</span>
                     </div>
                     <div class="formRow">
-                        <label id="viewHeightLabel" for="viewHeight" data-text="optionsViewPopupHeight"></label>
+                        <label id="viewHeightLabel" for="viewHeight">Popup Height (px):</label>
                         <input type="number" min="240" max="600" step="1" name="viewHeight" id="viewHeight" /><span> (240 - 600)</span>
                     </div>
                 </div>
@@ -73,21 +73,16 @@
             <div id="about">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="aboutVersionLabel" for="aboutVersion" data-text="optionsAboutVersion"></label>
+                        <label id="aboutVersionLabel" for="aboutVersion">Version</label>
                         <span id="aboutVersion"></span>
                     </div>
                     <div class="formRow">
-                        <label id="aboutVersionHistoryLabel" for="aboutVersionHistory" data-text="optionsAboutVersionHistory"></label>
-                        <a id="aboutVersionHistory" href="http://www.chromarks.com/version-history" target="_blank">http://www.chromarks.com/version-history</a>
+                        <label id="aboutSiteLabel" for="aboutSite">Site:</label>
+                        <a id="aboutSite" href="http://chromarks.net" target="_blank">http://chromarks.net</a>
                     </div>
                     <div class="formRow">
-                        <label id="aboutLegalLabel" for="aboutLegal" data-text="optionsAboutLegalNotice"></label>
+                        <label id="aboutLegalLabel" for="aboutLegal">Legal Notice:</label>
                         <div id="aboutLegal">
-                            Chromarks<br/>
-                            Copyright (c) 2013, James Nuzzi<br/>
-                            All rights reserved.<br/>
-                            <a href="http://www.chromarks.com" target="_blank">http://www.chromarks.com</a><br/>
-                            <br/>
                             Open Source License<br/>
                             ------------------------------------------------------------------------------------------<br/>
                             This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.<br/>
@@ -99,49 +94,6 @@
                             Public License for more details.
                         </div>
                     </div>
-                    <hr />
-                    <div class="formRow">
-                        <label id="aboutDonateUSDLabel" for="aboutDonateUSDSelect" data-text="optionsAboutDonateUSD"></label>
-                        <form id="aboutDonateUSD" action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
-                            <select id="aboutDonateUSDSelect" name="os0">
-                                <option value="$1 USD">Give a buck - $1.00 USD</option>
-                                <option value="$5 USD">Buy me a latte - $5.00 USD</option>
-                                <option value="$10 USD">Buy me 2 lattes - $10.00 USD</option>
-                                <option value="$20 USD">Buy me dinner - $20.00 USD</option>
-                                <option value="$50 USD">Buy me a nice dinner - $50.00 USD</option>
-                                <option value="$100 USD">Help pay my bills - $100.00 USD</option>
-                                <option value="$500 USD">Help pay my rent - $500.00 USD</option>
-                                <option value="$1000 USD">Send me on a vacation - $1,000.00 USD</option>
-                            </select>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="MJA4WNAJRWRU4">
-                            <input type="hidden" name="on0" value="Donation Amount">
-                            <input type="hidden" name="currency_code" value="USD">
-                        </form>
-                    </div>
-                    <div class="formRow">
-                        <label id="aboutDonateEURLabel" for="aboutDonateEURSelect" data-text="optionsAboutDonateEUR"></label>
-                        <form id="aboutDonateEUR" action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
-                            <select id="aboutDonateEURSelect" name="os0">
-                                <option value="1 EUR">Give a buck - €1.00 EUR</option>
-                                <option value="5 EUR">Buy me a latte - €5.00 EUR</option>
-                                <option value="10 EUR">Buy me 2 lattes - €10.00 EUR</option>
-                                <option value="20 EUR">Buy me dinner - €20.00 EUR</option>
-                                <option value="50 EUR">Buy me a nice dinner - €50.00 EUR</option>
-                                <option value="100 EUR">Help pay my bills - €100.00 EUR</option>
-                                <option value="500 EUR">Help pay my rent - €500.00 EUR</option>
-                                <option value="1000 EUR">Send me on a vacation - €1,000.00 EUR</option>
-                            </select>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="FVQEYDXCV3QV2">
-                            <input type="hidden" name="on0" value="Donation Amount">
-                            <input type="hidden" name="currency_code" value="EUR">
-                        </form>
-                    </div>
                 </div>
             </div>
         </section>
@@ -149,11 +101,10 @@
             <div id="saveButton">
                 <span id="saved">Options saved</span>
                 <span id="notSaved">Save Failed</span>
-                <button id="save" data-text="popupSave"></button>
             </div>
         </footer>
 
-        <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/options.js"></script>
+        <script src="jquery.js"></script>
+        <script src="options.js"></script>
     </body>
 </html>
