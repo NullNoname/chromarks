@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chromarks</title>
+
+    <link rel="stylesheet" href="themes/default/style.css" />
+    <link rel="stylesheet" href="themes/Aristo/Aristo.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="title">
+            <ul id="toolbar">
+                <li id="bmSearch"><input type="search" name="search" id="search" incremental="incremental" autocomplete="off" data-placeholder="popupSearchBookmarks" /></li>
+                <li id="bmManagerImg" class="imgButton"><img src="/icons/bookmark-manager.png" data-title="popupBookmarkManager" data-alt="popupBookmarkManager" width="16" height="16" /></li>
+                <li id="historyImg" class="imgButton"><img src="/icons/history.png" data-title="popupHistory" data-alt="popupHistory" width="16" height="16" /></li>
+                <li id="downloadsImg" class="imgButton"><img src="/icons/download.png" data-title="popupDownloads" data-alt="popupDownloads" width="16" height="16" /></li>
+                <li id="optionsImg" class="imgButton"><img src="/icons/options.png" data-title="popupOptions" data-alt="popupOptions" width="16" height="16" /></li>
+            </ul>
+        </div>
+        <div id="bookmarks" data-text="popupLoading"></div>
+    </div>
+    <div id="deleteDialog" class="dialog">
+        <div>
+            <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+            <span id="deleteName" style="font-weight: bold;"></span><br />
+            <br />
+            <span data-text="popupDeleteConfirm"></span>
+        </div>
+    </div>
+    <div id="editDialog" class="dialog">
+        <div>
+            <label for="editName" data-textlabel="popupName"></label>&nbsp;
+            <input type="text" name="editName" id="editName" class="ui-widget-content ui-corner-all" autoFocus="autoFocus" /><br />
+            <br />
+            <label for="editUrl" data-textlabel="popupEditURL"></label>&nbsp;
+            <input type="text" name="editUrl" id="editUrl" class="ui-widget-content ui-corner-all" /><br />
+        </div>
+    </div>
+    <div id="folderDialog" class="dialog">
+        <div>
+            <label for="folderName" data-textlabel="popupName"></label>&nbsp;
+            <input type="text" name="folderName" id="folderName" class="ui-widget-content ui-corner-all" autoFocus="autoFocus" /><br />
+        </div>
+    </div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jstree.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/async.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

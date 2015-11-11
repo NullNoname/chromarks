@@ -1,0 +1,266 @@
+{
+   "extDefaultTitle": {
+      "description": "Default title for browser action",
+      "message": "Chromarks"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Formerly Chrookmarks - Popup a bookmarks menu with the click of a button.  Manage your bookmarks right from the bookmarks menu."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Chromarks - Chrome Bookmarks Menu"
+   },
+   "extShortName": {
+      "description": "Extension short name",
+      "message": "Chromarks"
+   },
+   "optionsAbout": {
+      "description": "Title for About throughout options",
+      "message": "About"
+   },
+   "optionsAboutDonateEUR": {
+      "description": "Text for Donate (EUR) label in About form",
+      "message": "Donate (EUR):"
+   },
+   "optionsAboutDonateUSD": {
+      "description": "Text for Donate (USD) label in About form",
+      "message": "Donate (USD):"
+   },
+   "optionsAboutLegalNotice": {
+      "description": "Text for Legal Notice label in About form",
+      "message": "Legal Notice:"
+   },
+   "optionsAboutVersion": {
+      "description": "Text for Version label in About form",
+      "message": "Version:"
+   },
+   "optionsAboutVersionHistory": {
+      "description": "Text for Version History label in About form",
+      "message": "Version History:"
+   },
+   "optionsBookmarks": {
+      "description": "Title for Bookmarks throughout options",
+      "message": "Bookmarks"
+   },
+   "optionsBookmarksKeepPopupOpen": {
+      "description": "Text for Keep Popup Open After Opening Bookmarks label in Bookmarks form",
+      "message": "Keep Popup Open:"
+   },
+   "optionsBookmarksOpenBookmarksBar": {
+      "description": "Text for Open Bookmarks Bar label in Bookmarks form",
+      "message": "Open \"Bookmarks bar\":"
+   },
+   "optionsBookmarksOpenNewTab": {
+      "description": "Text for Open in New Tab label in Bookmarks form",
+      "message": "Open in New Tab:"
+   },
+   "optionsBookmarksSaveTreeState": {
+      "description": "Text for Save Tree State label in Bookmarks form",
+      "message": "Save Tree State:"
+   },
+   "optionsBookmarksShowFavIcons": {
+      "description": "Text for Show FavIcons label in Bookmarks form",
+      "message": "Show FavIcons:"
+   },
+   "optionsBookmarksShowTooltips": {
+      "description": "Text for Show Tooltips label in Bookmarks form",
+      "message": "Show Tooltips:"
+   },
+   "optionsBookmarksSortBy": {
+      "description": "Text for Sort By label in Bookmarks form",
+      "message": "Sort By:"
+   },
+   "optionsBookmarksSortByDate": {
+      "description": "Text for Sort By Date value in Bookmarks form",
+      "message": "Date"
+   },
+   "optionsBookmarksSortByName": {
+      "description": "Text for Sort By Name value in Bookmarks form",
+      "message": "Name"
+   },
+   "optionsBookmarksSortByNone": {
+      "description": "Text for Sort By None value in Bookmarks form",
+      "message": "None"
+   },
+   "optionsBookmarksSortOrder": {
+      "description": "Text for Sort Order label in Bookmarks form",
+      "message": "Sort Order:"
+   },
+   "optionsBookmarksSortOrderAscending": {
+      "description": "Text for Sort Order Ascending value in Bookmarks form",
+      "message": "Ascending"
+   },
+   "optionsBookmarksSortOrderDescending": {
+      "description": "Text for Sort Order Descending value in Bookmarks form",
+      "message": "Descending"
+   },
+   "optionsControllerError": {
+      "description": "Title for error window after saving options",
+      "message": "Error"
+   },
+   "optionsControllerErrorMsg": {
+      "description": "Text for message in error window after saving options",
+      "message": "Error saving options."
+   },
+   "optionsControllerLoading": {
+      "description": "Loading text for options forms",
+      "message": "Loading..."
+   },
+   "optionsControllerSaving": {
+      "description": "Saving text for options forms",
+      "message": "Saving..."
+   },
+   "optionsControllerSuccess": {
+      "description": "Title for success window after saving options",
+      "message": "Success"
+   },
+   "optionsControllerSuccessMsg": {
+      "description": "Text for message in success window after saving options",
+      "message": "Options saved successfully."
+   },
+   "optionsControllerValidationErrorMsg": {
+      "description": "Text for message in validation error window after saving options",
+      "message": "Please enter valid values and try again."
+   },
+   "optionsDonate": {
+      "description": "Title for Donate throughout options",
+      "message": "Donate"
+   },
+   "optionsProxyUpdateError": {
+      "description": "Text for proxy error message when trying to update options",
+      "message": "Error saving options."
+   },
+   "optionsView": {
+      "description": "Title for View throughout options",
+      "message": "View"
+   },
+   "optionsViewPopupHeight": {
+      "description": "Text for Popup Height label in View form",
+      "message": "Popup Height (px):"
+   },
+   "optionsViewPopupWidth": {
+      "description": "Text for Popup Width label in View form",
+      "message": "Popup Width (px):"
+   },
+   "popupAddBookmark": {
+      "description": "Title text for Add Bookmark window",
+      "message": "Add Bookmark"
+   },
+   "popupBookmarkManager": {
+      "description": "Text for bookmark manager button tooltip",
+      "message": "Bookmark Manager"
+   },
+   "popupCancel": {
+      "description": "Text for Cancel buttons throughout popup",
+      "message": "Cancel"
+   },
+   "popupCreateFolder": {
+      "description": "Title text for Create New Folder window",
+      "message": "Create New Folder"
+   },
+   "popupCtxMenuAddBookmark": {
+      "description": "Text for Bookmark Current Tab option in context menu",
+      "message": "Bookmark Current Tab"
+   },
+   "popupCtxMenuCreateFolder": {
+      "description": "Text for Create New Folder option in context menu",
+      "message": "Create New Folder"
+   },
+   "popupCtxMenuCurrentTab": {
+      "description": "Text for Open in current tab option in context menu",
+      "message": "Open in current tab"
+   },
+   "popupCtxMenuEdit": {
+      "description": "Text for Edit option in context menu",
+      "message": "Edit"
+   },
+   "popupCtxMenuNewIncognito": {
+      "description": "Text for Open in Incognito window option in context menu",
+      "message": "Open in Incognito window"
+   },
+   "popupCtxMenuNewTab": {
+      "description": "Text for Open in new tab option in context menu",
+      "message": "Open in new tab"
+   },
+   "popupCtxMenuNewTabs": {
+      "description": "Text for Open in new tabs option in context menu",
+      "message": "Open in new tabs"
+   },
+   "popupCtxMenuNewWindow": {
+      "description": "Text for Open in new window option in context menu",
+      "message": "Open in new window"
+   },
+   "popupCtxMenuPinnedTab": {
+      "description": "Text for Open in pinned tab option in context menu",
+      "message": "Open in pinned tab"
+   },
+   "popupDelete": {
+      "description": "Text for Delete buttons throughout popup",
+      "message": "Delete"
+   },
+   "popupDeleteBookmark": {
+      "description": "Title text for Delete Bookmark window",
+      "message": "Delete Bookmark"
+   },
+   "popupDeleteConfirm": {
+      "description": "Text for confirmation message/question in Delete Bookmark window",
+      "message": "Are you sure you want to delete this item?"
+   },
+   "popupDeleteFolder": {
+      "description": "Title text for Delete Folder window",
+      "message": "Delete Folder"
+   },
+   "popupDownloads": {
+      "description": "Text for downloads button tooltip",
+      "message": "Downloads"
+   },
+   "popupEditBookmark": {
+      "description": "Title text for Edit Bookmark window",
+      "message": "Edit Bookmark"
+   },
+   "popupEditFolder": {
+      "description": "Title text for Edit Folder window",
+      "message": "Edit Folder"
+   },
+   "popupEditURL": {
+      "description": "Text for URL field in Edit Bookmark window",
+      "message": "URL"
+   },
+   "popupHistory": {
+      "description": "Text for history button tooltip",
+      "message": "History"
+   },
+   "popupLoading": {
+      "description": "Text to display while bookmarks are loading",
+      "message": "Loading..."
+   },
+   "popupMarksProxyMultiNodeCreateError": {
+      "description": "Text for proxy error message when trying to create more than one node",
+      "message": "Cannot create more than one node."
+   },
+   "popupMarksProxyMultiNodeDeleteError": {
+      "description": "Text for proxy error message when trying to delete more than one node",
+      "message": "Cannot delete more than one node."
+   },
+   "popupMarksProxyMultiNodeUpdateError": {
+      "description": "Text for proxy error message when trying to update more than one node",
+      "message": "Cannot update more than one node."
+   },
+   "popupName": {
+      "description": "Text for Name fields throughout popup",
+      "message": "Name"
+   },
+   "popupOptions": {
+      "description": "Text for options button tooltip",
+      "message": "Options"
+   },
+   "popupSave": {
+      "description": "Text for Save buttons throughout popup",
+      "message": "Save"
+   },
+   "popupSearchBookmarks": {
+      "description": "Text to display in search field when no text has been entered by the user",
+      "message": "Search Bookmarks"
+   }
+}

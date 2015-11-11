@@ -1,0 +1,15 @@
+Chromarks
+Copyright (c) 2013, James Nuzzi
+All rights reserved.
+
+http://www.chromarks.com
+
+Open Source License
+------------------------------------------------------------------------------------------
+This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.
+
+http://www.gnu.org/licenses/gpl.html
+
+--
+
+Chromarks is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS.  See the GNU General Public License for more details.
