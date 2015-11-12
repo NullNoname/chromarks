@@ -1,5 +1,10 @@
-# chromarks
-This repository is a mirror of Chrome extension "Chromarks" version 2.5.0. This is the last version before bunch of unnecessary permissions added along with an annoying "this page is in your bookmark" notification.
+# Chromarks 2.6.0 WARNING
+If you already have Chromarks 2.6.0 installed from the Chrome Store, UNINSTALL NOW, GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, AND PLEASE REPORT ABUSE TO GOOGLE!!
+
+You can read what 2.6.0 does in the following branch: https://github.com/NullNoname/chromarks/tree/2.6.0
+
+# Chromarks 2.5.0 Mirror
+This repository is a mirror of Chrome extension "Chromarks" version 2.5.0. This is the last version before bunch of dangerous permissions added along with malicious codes.
 
 This extension can be installed in Chrome's developer mode by using the "Load unpacked extension" button.
 More Info: https://developer.chrome.com/extensions/getstarted#unpacked
