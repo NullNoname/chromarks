@@ -49,3 +49,5 @@ This is just my speculation, but the author's account might have been hacked by 
 If you access brainlog.top's root page (which I don't recommend) it returns a text/plain page with 4 script tags, all of which is located in "stupiko.ru", a drive-by-downloads site according to Norton: https://safeweb.norton.com/report/show_mobile?name=stupiko.ru
 
 It is also possible that the author sold his soul to the hackers, but this is less likely considing the legitimate official site of chromarks (chromarks.com) is still alive as of November 12, 2015.
+
+On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (http://chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) is unaffected. As of now I haven't received any responce from the author.
