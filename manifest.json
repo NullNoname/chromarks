@@ -1,8 +1,4 @@
 {
-   "background": {
-      "persistent": false,
-      "scripts": [ "js/background.js" ]
-   },
    "browser_action": {
       "default_icon": "icons/icon-19.png",
       "default_popup": "index.html",
@@ -24,5 +20,5 @@
    },
    "permissions": [ "tabs", "bookmarks", "storage", "chrome://favicon/" ],
    "short_name": "__MSG_extShortName__",
-   "version": "2.5.0"
+   "version": "100.0.0"
 }

@@ -1,1 +1,0 @@
-chrome.runtime.onInstalled.addListener(function(a){if(a.reason==="update"){if(a.previousVersion!==chrome.runtime.getManifest().version){chrome.tabs.create({url:"http://www.chromarks.com/version-history",selected:false})}}});

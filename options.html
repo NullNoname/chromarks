@@ -9,67 +9,13 @@
     <body>
         <nav id="nav">
             <ul>
-                <li><a id="bookmarksTab" href="#bookmarks" data-text="optionsBookmarks"></a></li>
-                <li><a id="viewTab" href="#view" data-text="optionsView"></a></li>
                 <li><a id="aboutTab" href="#about" data-text="optionsAbout"></a></li>
+                <li><a id="viewTab" href="#view" data-text="optionsView"></a></li>
+                <li><a id="bookmarksTab" href="#bookmarks" data-text="optionsBookmarks"></a></li>
             </ul>
         </nav>
+
         <section id="content">
-            <div id="bookmarks">
-                <div class="cssForm">
-                    <div class="formRow">
-                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab" data-text="optionsBookmarksOpenNewTab"></label>
-                        <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab">
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen" data-text="optionsBookmarksKeepPopupOpen"></label>
-                        <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen">
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksSortByLabel" for="bookmarksSortBy" data-text="optionsBookmarksSortBy"></label>
-                        <select name="bookmarksSortBy" id="bookmarksSortBy">
-                            <option id="bookmarksSortByNone" value="none" data-text="optionsBookmarksSortByNone"></option>
-                            <option id="bookmarksSortByName" value="text" data-text="optionsBookmarksSortByName"></option>
-                            <option id="bookmarksSortByDate" value="date" data-text="optionsBookmarksSortByDate"></option>
-                        </select>
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder" data-text="optionsBookmarksSortOrder"></label>
-                        <select name="bookmarksSortOrder" id="bookmarksSortOrder">
-                            <option id="bookmarksSortOrderAscending" value="ASC" data-text="optionsBookmarksSortOrderAscending"></option>
-                            <option id="bookmarksSortOrderDescending" value="DESC" data-text="optionsBookmarksSortOrderDescending"></option>
-                        </select>
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons" data-text="optionsBookmarksShowFavIcons"></label>
-                        <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons">
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips" data-text="optionsBookmarksShowTooltips"></label>
-                        <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips">
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState" data-text="optionsBookmarksSaveTreeState"></label>
-                        <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState">
-                    </div>
-                    <div class="formRow">
-                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar" data-text="optionsBookmarksOpenBookmarksBar"></label>
-                        <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar">
-                    </div>
-                </div>
-            </div>
-            <div id="view">
-                <div class="cssForm">
-                    <div class="formRow">
-                        <label id="viewWidthLabel" for="viewWidth" data-text="optionsViewPopupWidth"></label>
-                        <input type="number" min="180" max="800" step="1" name="viewWidth" id="viewWidth" /><span> (180 - 800)</span>
-                    </div>
-                    <div class="formRow">
-                        <label id="viewHeightLabel" for="viewHeight" data-text="optionsViewPopupHeight"></label>
-                        <input type="number" min="240" max="600" step="1" name="viewHeight" id="viewHeight" /><span> (240 - 600)</span>
-                    </div>
-                </div>
-            </div>
             <div id="about">
                 <div class="cssForm">
                     <div class="formRow">
@@ -78,7 +24,7 @@
                     </div>
                     <div class="formRow">
                         <label id="aboutVersionHistoryLabel" for="aboutVersionHistory" data-text="optionsAboutVersionHistory"></label>
-                        <a id="aboutVersionHistory" href="http://www.chromarks.com/version-history" target="_blank">http://www.chromarks.com/version-history</a>
+                        <a id="aboutVersionHistory" href="https://github.com/NullNoname/chromarks/commits/unofficial" target="_blank">https://github.com/NullNoname/chromarks/commits/unofficial</a>
                     </div>
                     <div class="formRow">
                         <label id="aboutLegalLabel" for="aboutLegal" data-text="optionsAboutLegalNotice"></label>
@@ -96,7 +42,7 @@
                             Open Source License<br/>
                             ------------------------------------------------------------------------------------------<br/>
                             This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.<br/>
-                            <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">http://www.gnu.org/licenses/gpl.html</a><br/>
+                            <a href="https://www.gnu.org/licenses/gpl.html" target="_blank">https://www.gnu.org/licenses/gpl.html</a><br/>
                             --<br/>
                             Chromarks is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
                             without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,<br />
@@ -105,7 +51,7 @@
                         </div>
                     </div>
 
-<!-- Not sure if these still work, since it is not in 2.6.0.
+<!-- I'll leave it commented out until the author replies anything
                     <hr />
                     <div class="formRow">
                         <label id="aboutDonateUSDLabel" for="aboutDonateUSDSelect" data-text="optionsAboutDonateUSD"></label>
@@ -153,11 +99,66 @@
 
                 </div>
             </div>
+            <div id="view">
+                <div class="cssForm">
+                    <div class="formRow">
+                        <label id="viewWidthLabel" for="viewWidth" data-text="optionsViewPopupWidth"></label>
+                        <input type="number" min="180" max="800" step="1" name="viewWidth" id="viewWidth" /><span> (180 - 800)</span>
+                    </div>
+                    <div class="formRow">
+                        <label id="viewHeightLabel" for="viewHeight" data-text="optionsViewPopupHeight"></label>
+                        <input type="number" min="240" max="600" step="1" name="viewHeight" id="viewHeight" /><span> (240 - 600)</span>
+                    </div>
+                </div>
+            </div>
+            <div id="bookmarks">
+                <div class="cssForm">
+                    <div class="formRow">
+                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab" data-text="optionsBookmarksOpenNewTab"></label>
+                        <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen" data-text="optionsBookmarksKeepPopupOpen"></label>
+                        <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSortByLabel" for="bookmarksSortBy" data-text="optionsBookmarksSortBy"></label>
+                        <select name="bookmarksSortBy" id="bookmarksSortBy">
+                            <option id="bookmarksSortByNone" value="none" data-text="optionsBookmarksSortByNone"></option>
+                            <option id="bookmarksSortByName" value="text" data-text="optionsBookmarksSortByName"></option>
+                            <option id="bookmarksSortByDate" value="date" data-text="optionsBookmarksSortByDate"></option>
+                        </select>
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder" data-text="optionsBookmarksSortOrder"></label>
+                        <select name="bookmarksSortOrder" id="bookmarksSortOrder">
+                            <option id="bookmarksSortOrderAscending" value="ASC" data-text="optionsBookmarksSortOrderAscending"></option>
+                            <option id="bookmarksSortOrderDescending" value="DESC" data-text="optionsBookmarksSortOrderDescending"></option>
+                        </select>
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons" data-text="optionsBookmarksShowFavIcons"></label>
+                        <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips" data-text="optionsBookmarksShowTooltips"></label>
+                        <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState" data-text="optionsBookmarksSaveTreeState"></label>
+                        <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar" data-text="optionsBookmarksOpenBookmarksBar"></label>
+                        <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar">
+                    </div>
+                </div>
+            </div>
         </section>
         <footer id="footer">
             <div id="saveButton">
-                <span id="saved">Options saved</span>
-                <span id="notSaved">Save Failed</span>
+                <span id="saved"><label id="popupSaveLabelSaved" for="popupSaveLabelSaved" data-text="optionsControllerSuccessMsg"></label></span>
+                <span id="notSaved"><label id="popupSaveLabelFailed" for="popupSaveLabelFailed" data-text="optionsControllerErrorMsg"></label></span>
                 <button id="save" data-text="popupSave"></button>
             </div>
         </footer>

@@ -1,227 +1,227 @@
 {
    "extDefaultTitle": {
       "description": "Default title for browser action",
-      "message": "Chromarks (Unofficial)"
+      "message": "Chromarks (非公式)"
    },
    "extDescription": {
       "description": "Extension description",
-      "message": "Based on the last good version of Chromarks (2.5.0) - Popup a bookmarks menu with the click of a button.  Manage your bookmarks right from the bookmarks menu."
+      "message": "最後の正常なChromarksバージョン(2.5.0)をベースにした拡張で、ブックマークに簡単にアクセスできるボタンを追加します。 ブックマークポップアップから直接ブックマークの編集ができます。"
    },
    "extName": {
       "description": "Extension name",
-      "message": "Chromarks - Chrome Bookmarks Menu (Unofficial)"
+      "message": "Chromarks - Chromeブックマークメニュー (非公式)"
    },
    "extShortName": {
       "description": "Extension short name",
-      "message": "Chromarks (Unofficial)"
+      "message": "Chromarks (非公式)"
    },
    "optionsAbout": {
       "description": "Title for About throughout options",
-      "message": "About"
+      "message": "バージョン情報"
    },
    "optionsAboutDonateEUR": {
       "description": "Text for Donate (EUR) label in About form",
-      "message": "Donate (EUR):"
+      "message": "寄付 (EUR):"
    },
    "optionsAboutDonateUSD": {
       "description": "Text for Donate (USD) label in About form",
-      "message": "Donate (USD):"
+      "message": "寄付 (USD):"
    },
    "optionsAboutLegalNotice": {
       "description": "Text for Legal Notice label in About form",
-      "message": "Legal Notice:"
+      "message": "法的事項:"
    },
    "optionsAboutVersion": {
       "description": "Text for Version label in About form",
-      "message": "Version:"
+      "message": "バージョン:"
    },
    "optionsAboutVersionHistory": {
       "description": "Text for Version History label in About form",
-      "message": "Version History:"
+      "message": "バージョン履歴:"
    },
    "optionsBookmarks": {
       "description": "Title for Bookmarks throughout options",
-      "message": "Bookmarks"
+      "message": "ブックマーク"
    },
    "optionsBookmarksKeepPopupOpen": {
       "description": "Text for Keep Popup Open After Opening Bookmarks label in Bookmarks form",
-      "message": "Keep Popup Open:"
+      "message": "ポップアップを閉じない:"
    },
    "optionsBookmarksOpenBookmarksBar": {
       "description": "Text for Open Bookmarks Bar label in Bookmarks form",
-      "message": "Open \"Bookmarks bar\":"
+      "message": "ブックマークバーから開く:"
    },
    "optionsBookmarksOpenNewTab": {
       "description": "Text for Open in New Tab label in Bookmarks form",
-      "message": "Open in New Tab:"
+      "message": "新しいタブで開く:"
    },
    "optionsBookmarksSaveTreeState": {
       "description": "Text for Save Tree State label in Bookmarks form",
-      "message": "Save Tree State:"
+      "message": "ツリーの開閉状態を記憶:"
    },
    "optionsBookmarksShowFavIcons": {
       "description": "Text for Show FavIcons label in Bookmarks form",
-      "message": "Show FavIcons:"
+      "message": "Favicon表示:"
    },
    "optionsBookmarksShowTooltips": {
       "description": "Text for Show Tooltips label in Bookmarks form",
-      "message": "Show Tooltips:"
+      "message": "ツールチップ:"
    },
    "optionsBookmarksSortBy": {
       "description": "Text for Sort By label in Bookmarks form",
-      "message": "Sort By:"
+      "message": "並び替えの種類:"
    },
    "optionsBookmarksSortByDate": {
       "description": "Text for Sort By Date value in Bookmarks form",
-      "message": "Date"
+      "message": "日付"
    },
    "optionsBookmarksSortByName": {
       "description": "Text for Sort By Name value in Bookmarks form",
-      "message": "Name"
+      "message": "名前"
    },
    "optionsBookmarksSortByNone": {
       "description": "Text for Sort By None value in Bookmarks form",
-      "message": "None"
+      "message": "なし"
    },
    "optionsBookmarksSortOrder": {
       "description": "Text for Sort Order label in Bookmarks form",
-      "message": "Sort Order:"
+      "message": "並び替え方向:"
    },
    "optionsBookmarksSortOrderAscending": {
       "description": "Text for Sort Order Ascending value in Bookmarks form",
-      "message": "Ascending"
+      "message": "昇順"
    },
    "optionsBookmarksSortOrderDescending": {
       "description": "Text for Sort Order Descending value in Bookmarks form",
-      "message": "Descending"
+      "message": "降順"
    },
    "optionsControllerError": {
       "description": "Title for error window after saving options",
-      "message": "Error"
+      "message": "エラー"
    },
    "optionsControllerErrorMsg": {
       "description": "Text for message in error window after saving options",
-      "message": "Error saving options."
+      "message": "設定の保存に失敗しました"
    },
    "optionsControllerLoading": {
       "description": "Loading text for options forms",
-      "message": "Loading..."
+      "message": "読み込み中..."
    },
    "optionsControllerSaving": {
       "description": "Saving text for options forms",
-      "message": "Saving..."
+      "message": "保存中..."
    },
    "optionsControllerSuccess": {
       "description": "Title for success window after saving options",
-      "message": "Success"
+      "message": "成功"
    },
    "optionsControllerSuccessMsg": {
       "description": "Text for message in success window after saving options",
-      "message": "Options saved successfully."
+      "message": "設定を保存しました"
    },
    "optionsControllerValidationErrorMsg": {
       "description": "Text for message in validation error window after saving options",
-      "message": "Please enter valid values and try again."
+      "message": "不正な値が設定に入力されています"
    },
    "optionsDonate": {
       "description": "Title for Donate throughout options",
-      "message": "Donate"
+      "message": "寄付"
    },
    "optionsProxyUpdateError": {
       "description": "Text for proxy error message when trying to update options",
-      "message": "Error saving options."
+      "message": "設定の保存に失敗しました"
    },
    "optionsView": {
       "description": "Title for View throughout options",
-      "message": "View"
+      "message": "表示"
    },
    "optionsViewPopupHeight": {
       "description": "Text for Popup Height label in View form",
-      "message": "Popup Height (px):"
+      "message": "ポップアップの高さ (px):"
    },
    "optionsViewPopupWidth": {
       "description": "Text for Popup Width label in View form",
-      "message": "Popup Width (px):"
+      "message": "ポップアップの幅 (px):"
    },
    "popupAddBookmark": {
       "description": "Title text for Add Bookmark window",
-      "message": "Add Bookmark"
+      "message": "ブックマークの追加"
    },
    "popupBookmarkManager": {
       "description": "Text for bookmark manager button tooltip",
-      "message": "Bookmark Manager"
+      "message": "ブックマーク マネージャ"
    },
    "popupCancel": {
       "description": "Text for Cancel buttons throughout popup",
-      "message": "Cancel"
+      "message": "キャンセル"
    },
    "popupCreateFolder": {
       "description": "Title text for Create New Folder window",
-      "message": "Create New Folder"
+      "message": "フォルダ作成"
    },
    "popupCtxMenuAddBookmark": {
       "description": "Text for Bookmark Current Tab option in context menu",
-      "message": "Bookmark Current Tab"
+      "message": "現在のタブをブックマーク"
    },
    "popupCtxMenuCreateFolder": {
       "description": "Text for Create New Folder option in context menu",
-      "message": "Create New Folder"
+      "message": "フォルダ作成"
    },
    "popupCtxMenuCurrentTab": {
       "description": "Text for Open in current tab option in context menu",
-      "message": "Open in current tab"
+      "message": "現在のタブで開く"
    },
    "popupCtxMenuEdit": {
       "description": "Text for Edit option in context menu",
-      "message": "Edit"
+      "message": "編集"
    },
    "popupCtxMenuNewIncognito": {
       "description": "Text for Open in Incognito window option in context menu",
-      "message": "Open in Incognito window"
+      "message": "シークレット ウィンドウで開く"
    },
    "popupCtxMenuNewTab": {
       "description": "Text for Open in new tab option in context menu",
-      "message": "Open in new tab"
+      "message": "新しいタブで開く"
    },
    "popupCtxMenuNewTabs": {
       "description": "Text for Open in new tabs option in context menu",
-      "message": "Open in new tabs"
+      "message": "新しい複数タブで開く"
    },
    "popupCtxMenuNewWindow": {
       "description": "Text for Open in new window option in context menu",
-      "message": "Open in new window"
+      "message": "新しいウィンドウで開く"
    },
    "popupCtxMenuPinnedTab": {
       "description": "Text for Open in pinned tab option in context menu",
-      "message": "Open in pinned tab"
+      "message": "固定タブで開く"
    },
    "popupDelete": {
       "description": "Text for Delete buttons throughout popup",
-      "message": "Delete"
+      "message": "削除"
    },
    "popupDeleteBookmark": {
       "description": "Title text for Delete Bookmark window",
-      "message": "Delete Bookmark"
+      "message": "ブックマークの削除"
    },
    "popupDeleteConfirm": {
       "description": "Text for confirmation message/question in Delete Bookmark window",
-      "message": "Are you sure you want to delete this item?"
+      "message": "選択したアイテムを消しますか?"
    },
    "popupDeleteFolder": {
       "description": "Title text for Delete Folder window",
-      "message": "Delete Folder"
+      "message": "フォルダの削除"
    },
    "popupDownloads": {
       "description": "Text for downloads button tooltip",
-      "message": "Downloads"
+      "message": "ダウンロード"
    },
    "popupEditBookmark": {
       "description": "Title text for Edit Bookmark window",
-      "message": "Edit Bookmark"
+      "message": "ブックマーク編集"
    },
    "popupEditFolder": {
       "description": "Title text for Edit Folder window",
-      "message": "Edit Folder"
+      "message": "フォルダ編集"
    },
    "popupEditURL": {
       "description": "Text for URL field in Edit Bookmark window",
@@ -229,38 +229,38 @@
    },
    "popupHistory": {
       "description": "Text for history button tooltip",
-      "message": "History"
+      "message": "履歴"
    },
    "popupLoading": {
       "description": "Text to display while bookmarks are loading",
-      "message": "Loading..."
+      "message": "読み込み中..."
    },
    "popupMarksProxyMultiNodeCreateError": {
       "description": "Text for proxy error message when trying to create more than one node",
-      "message": "Cannot create more than one node."
+      "message": "内部エラー:Cannot create more than one node. (popupMarksProxyMultiNodeCreateError)"
    },
    "popupMarksProxyMultiNodeDeleteError": {
       "description": "Text for proxy error message when trying to delete more than one node",
-      "message": "Cannot delete more than one node."
+      "message": "内部エラー:Cannot delete more than one node. (popupMarksProxyMultiNodeDeleteError)"
    },
    "popupMarksProxyMultiNodeUpdateError": {
       "description": "Text for proxy error message when trying to update more than one node",
-      "message": "Cannot update more than one node."
+      "message": "内部エラー:Cannot update more than one node. (popupMarksProxyMultiNodeUpdateError)"
    },
    "popupName": {
       "description": "Text for Name fields throughout popup",
-      "message": "Name"
+      "message": "名前"
    },
    "popupOptions": {
       "description": "Text for options button tooltip",
-      "message": "Options"
+      "message": "オプション"
    },
    "popupSave": {
       "description": "Text for Save buttons throughout popup",
-      "message": "Save"
+      "message": "保存"
    },
    "popupSearchBookmarks": {
       "description": "Text to display in search field when no text has been entered by the user",
-      "message": "Search Bookmarks"
+      "message": "ブックマークを検索"
    }
 }
