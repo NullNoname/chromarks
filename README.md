@@ -48,6 +48,8 @@ https://www.gnu.org/licenses/gpl.html
 This is just my speculation, but the author's account might have been hacked by Russian or Netherlands hackers and they uploaded this version.
 If you access brainlog.top's root page (which I don't recommend) it returns a text/plain page with 4 script tags, all of which is located in "stupiko.ru", a drive-by-downloads site according to Norton: https://safeweb.norton.com/report/show_mobile?name=stupiko.ru
 
-It is also possible that the author sold his soul to the hackers, but this is less likely considing the legitimate official site of chromarks (chromarks.com) is still alive as of November 12, 2015.
+It is also possible that the author sold his soul to the hackers, I initially thought it was less likely considing the legitimate official site of chromarks (chromarks.com) was alive until November 19, 2015, but unfortunately this is quite a possiblity now.
 
-On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (http://chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) is unaffected. As of now I haven't received any responce from the author.
+On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) was left unaffected (it had around 100 views the last time I checked).
+
+On November 19, 2015, the entire chromarks.com was replaced with a message "This site has been moved to chromarks.net" and its forum is also gone, so I guess this is the end.
