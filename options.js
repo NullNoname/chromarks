@@ -22,6 +22,9 @@ $(function() {
   $("#save").click(function () {
     saveOptions();
   });
+  $("input,select").change(function () {
+    saveOptions();
+  });
 });
 
 function initMessages() {
@@ -92,7 +95,7 @@ function saveOptions() {
     if (chrome.runtime.lastError) {
       $("#notSaved").stop(false, true).fadeIn("fast").fadeOut(4000);
     } else {
-      $("#saved").stop(false, true).fadeIn("fast").fadeOut(4000);
+      $("#saved").stop(false, true).fadeIn("fast").fadeOut(2500);
     }
   });
 }

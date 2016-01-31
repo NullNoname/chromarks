@@ -1,9 +1,12 @@
-# chromarks
-I recommend you to NOT INSTALL THIS. If you already have Chromarks 2.6.0 installed from the Chrome Store, UNINSTALL NOW, GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, AND PLEASE REPORT ABUSE TO GOOGLE!!
+# Chromarks 2.6.1
+Getting a green 'Page is present in your bookmarks' banner? Something strange going on your Chrome browser? Your security software found something? If yes, do you have Chromarks 2.6.0 or newer installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, UNINSTALL IT, AND PLEASE REPORT ABUSE TO GOOGLE!!
 
-This branch is mirror of Chromarks 2.6.0 released in November 10, 2015, which added bunch of dangerous permissions and malicious codes.
+This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which contain dangerous permissions and malicious codes. I recommend you to NOT INSTALL THIS. Chromarks 2.6.0, released in November 10, 2015, was the first malicious version.
 
-## File structure changes from 2.5.0
+If you loved original Chromarks (or Chrookmarks), please consider manually installing my unofficial branch which is based on the last-good version (2.5.0):
+https://github.com/NullNoname/chromarks/tree/unofficial
+
+## File structure changes from 2.5.0 to 2.6.0
 * renamed:js/background.js -> background.js
 * renamed:js/options.js -> options.js
 * renamed:index.html -> popup.html
@@ -14,7 +17,7 @@ This branch is mirror of Chromarks 2.6.0 released in November 10, 2015, which ad
 * new file:background.html
 * new file:content.js
 
-## Known BAD changes
+## Known BAD changes from 2.5.0 to 2.6.0
 ### manifest.json
 * The following permissions are added which is a very dangerous sign, because it allows the extension to moniter your web browsing activities: `[ "activeTab", "alarms", "browsingData", "clipboardWrite", "contextMenus", "cookies", "declarativeContent", "fontSettings", "gcm", "identity", "idle", "management", "notifications", "pageCapture", "power", "proxy", "sessions", "system.cpu", "system.display", "system.memory", "system.storage", "tabCapture", "tts", "unlimitedStorage", "webRequest", "webRequestBlocking", "*://*/*" ]`
 * Javascript eval() is completely allowed in manifest.json (unsafe-eval), which can be used to execute Javascript codes fetched from outside. Google strongly discourage this setting: https://developer.chrome.com/extensions/contentSecurityPolicy#relaxing-eval
@@ -29,16 +32,22 @@ This branch is mirror of Chromarks 2.6.0 released in November 10, 2015, which ad
 * Offical site URL changed from chromarks.COM to chromarks.NET. The .NET site has nothing but a link to chrome store (no update history or anything) which is a pretty bad sign.
 * Link to version history page is removed from the options because chromarks.NET does not have an equivalent.
 * PayPal donation link in the options menu is removed.
-* Options are not saved. The Save button to actually save your changes is missing.
+* Options are not saved. The Save button to actually save your changes is missing. It was fixed in version 2.6.1.
 * license.txt is removed. The options menu still states it's GPLv3, but the name of original author James Nuzzi is completely deleted.
 
-## Other known changes
+## Other known changes from 2.5.0 to 2.6.0
 * Most Javascript files have human-friendly indent now. While this enables us to read the code easily, it lacks comments so it might have been formatted by whoever created Chromarks 2.6.0.
 * CSS files are also have human-friendly indent, but with comments. The comments are likely added by whoever created Chromarks 2.6.0.
 * It seems jquery version is changed. async might use diffenent version too but I'm not sure about this. jsTree is still 3.2.1, but now with human-friendly indent.
 * "tabs" permission is removed.
 * _locales/en/messages.json is removed. Every text is now hardcoded.
 * Google Analytics is removed, probably because of *.top urls mentioned above.
+
+## Changes from 2.6.0 to 2.6.1
+* Please note I've downloaded 2.6.1 from Crx4Chrome (http://www.crx4chrome.com/crx/760/) in order to check the code without installing the official Chromarks again. Because of this, there are indent changes to manifest.json and file size differences in icons/icon-*.png.
+* manifest.json: The only actual change in manifest.json is the version bump. (2.6.0 -> 2.6.1)
+* options.html: Options Save button is restored.
+* options.js: Options Save feature is restored, and the "Options saved" notification disappears faster. (2500ms instead of 4000ms)
 
 ## License
 License is GNU General Public License version 3. The license.txt has been removed from this version but the options menu retains GPLv3 notice.
@@ -53,3 +62,5 @@ It is also possible that the author sold his soul to the hackers, I initially th
 On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) was left unaffected (it had around 100 views the last time I checked).
 
 On November 19, 2015, the entire chromarks.com was replaced with a message "This site has been moved to chromarks.net" and its forum is also gone, so I guess this is the end.
+
+On November 19, 2015, Chromarks 2.6.1 was released which restored Save button, but otherwise no changes and still dangerous.
