@@ -6,6 +6,8 @@ This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which co
 If you loved original Chromarks (or Chrookmarks), please consider manually installing my unofficial branch which is based on the last-good version (2.5.0):
 https://github.com/NullNoname/chromarks/tree/unofficial
 
+You can read my speculation of what happened to Chromarks extension at the end of this page. (Look at "What happened to Chromarks, anyway?")
+
 ## File structure changes from 2.5.0 to 2.6.0
 * renamed:js/background.js -> background.js
 * renamed:js/options.js -> options.js
@@ -58,6 +60,8 @@ This is just my speculation, but the author's account might have been hacked by 
 If you access brainlog.top's root page (which I don't recommend) it returns a text/plain page with 4 script tags, all of which is located in "stupiko.ru", a drive-by-downloads site according to Norton: https://safeweb.norton.com/report/show_mobile?name=stupiko.ru
 
 It is also possible that the author sold his soul to the hackers, I initially thought it was less likely considing the legitimate official site of chromarks (chromarks.com) was alive until November 19, 2015, but unfortunately this is quite a possiblity now.
+
+Sadly, it turns out the case like this is not too unusual: http://www.makeuseof.com/tag/x-malicious-browser-extensions-help-hackers-target-victims/
 
 On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) was left unaffected (it had around 100 views the last time I checked).
 
