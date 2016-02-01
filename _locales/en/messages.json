@@ -1,19 +1,19 @@
 {
    "extDefaultTitle": {
       "description": "Default title for browser action",
-      "message": "Chromarks (Unofficial)"
+      "message": "Chromarks Detoxified"
    },
    "extDescription": {
       "description": "Extension description",
-      "message": "Based on the last good version of Chromarks (2.5.0) - Popup a bookmarks menu with the click of a button.  Manage your bookmarks right from the bookmarks menu."
+      "message": "Based on the last legitimate version of Chromarks (2.5.0) - Popup a bookmarks menu with the click of a button.  Manage your bookmarks right from the bookmarks menu."
    },
    "extName": {
       "description": "Extension name",
-      "message": "Chromarks - Chrome Bookmarks Menu (Unofficial)"
+      "message": "Chromarks Detoxified - Chrome Bookmarks Menu"
    },
    "extShortName": {
       "description": "Extension short name",
-      "message": "Chromarks (Unofficial)"
+      "message": "Chromarks Detoxified"
    },
    "optionsAbout": {
       "description": "Title for About throughout options",

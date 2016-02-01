@@ -20,5 +20,5 @@
    },
    "permissions": [ "tabs", "bookmarks", "storage", "chrome://favicon/" ],
    "short_name": "__MSG_extShortName__",
-   "version": "100.0.0"
+   "version": "100.0.1"
 }

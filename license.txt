@@ -2,7 +2,9 @@ Chromarks
 Copyright (c) 2013, James Nuzzi
 All rights reserved.
 
-http://www.chromarks.com
+"Chromarks Detoxified" fork
+Copyright (c) 2015-2016, NullNoname
+https://github.com/NullNoname/chromarks/tree/unofficial
 
 Open Source License
 ------------------------------------------------------------------------------------------

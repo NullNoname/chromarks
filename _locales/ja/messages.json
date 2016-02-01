@@ -1,7 +1,7 @@
 {
    "extDefaultTitle": {
       "description": "Default title for browser action",
-      "message": "Chromarks (非公式)"
+      "message": "Chromarks Detoxified"
    },
    "extDescription": {
       "description": "Extension description",
@@ -9,11 +9,11 @@
    },
    "extName": {
       "description": "Extension name",
-      "message": "Chromarks - Chromeブックマークメニュー (非公式)"
+      "message": "Chromarks Detoxified - Chromeブックマークメニュー"
    },
    "extShortName": {
       "description": "Extension short name",
-      "message": "Chromarks (非公式)"
+      "message": "Chromarks Detoxified"
    },
    "optionsAbout": {
       "description": "Title for About throughout options",
