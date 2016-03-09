@@ -6,17 +6,6 @@ var opts = null,
         incognito: 3,
         pinnedTab: 4
     },
-    _gaq = _gaq || [];
-_gaq.push(["_setAccount", "INVALID"]);
-_gaq.push(["_trackPageview"]);
-(function() {
-    var b = document.createElement("script");
-    b.type = "text/javascript";
-    b.async = true;
-    b.src = "http://0.0.0.0/ga.js";
-    var a = document.getElementsByTagName("script")[0];
-    a.parentNode.insertBefore(b, a)
-})();
 $(function() {
     chrome.storage.sync.get({
         options: {
@@ -110,35 +99,30 @@ $(function() {
             h.nodes.find(".jstree-node").show()
         });
         $("#bmManagerImg").click(function() {
-            _gaq.push(["_trackEvent", this.id, "clicked"]);
             chrome.tabs.create({
                 url: "chrome://bookmarks",
                 selected: true
             })
         });
         $("#historyImg").click(function() {
-            _gaq.push(["_trackEvent", this.id, "clicked"]);
             chrome.tabs.create({
                 url: "chrome://history",
                 selected: true
             })
         });
         $("#downloadsImg").click(function() {
-            _gaq.push(["_trackEvent", this.id, "clicked"]);
             chrome.tabs.create({
                 url: "chrome://downloads",
                 selected: true
             })
         });
         $("#optionsImg").click(function() {
-            _gaq.push(["_trackEvent", this.id, "clicked"]);
             chrome.tabs.create({
                 url: "chrome://extensions/?options=" + chrome.runtime.id,
                 selected: true
             })
         });
         $("#search").on("search", function() {
-            _gaq.push(["_trackEvent", this.id, "on"]);
             $("#bookmarks").jstree(true).search($("#search").val())
         }).focus()
     });
