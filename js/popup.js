@@ -5,7 +5,7 @@ var opts = null,
         newWindow: 2,
         incognito: 3,
         pinnedTab: 4
-    },
+    };
 $(function() {
     chrome.storage.sync.get({
         options: {
