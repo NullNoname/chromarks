@@ -1,5 +1,5 @@
 # Chromarks 2.6.1
-Getting a green 'Page is present in your bookmarks' banner? Something strange going on your Chrome browser? Your security software found something? If yes, do you have Chromarks 2.6.0 or newer installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, UNINSTALL IT, AND PLEASE REPORT ABUSE TO GOOGLE!!
+Getting a green 'Page is present in your bookmarks' banner? Got redirect to lnkr.us or free-merchants.com? If yes, do you have Chromarks 2.6.0 or newer installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, UNINSTALL IT, AND PLEASE REPORT ABUSE TO GOOGLE!!
 
 This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which contain dangerous permissions and malicious codes. I recommend you to NOT INSTALL THIS. Chromarks 2.6.0, released in November 10, 2015, was the first malicious version.
 
@@ -65,6 +65,6 @@ Sadly, it turns out the case like this is not too unusual: http://www.makeuseof.
 
 On November 14, 2015, the Contact page on chromarks.com (chromarks.com/contact) has been removed, but my topic on its forum (chromarks.com/forum/technical-support/31-psa-chromarks-2-6-0-in-chrome-store-is-malicious) was left unaffected (it had around 100 views the last time I checked).
 
-On November 19, 2015, the entire chromarks.com was replaced with a message "This site has been moved to chromarks.net" and its forum is also gone, so I guess this is the end.
+On November 19, 2015, Chromarks 2.6.1 was released which restored Save button, but otherwise no changes and still dangerous. On the same day, the entire chromarks.com was replaced with a message "This site has been moved to chromarks.net" and its forum is also gone, so I guess this is the end.
 
-On November 19, 2015, Chromarks 2.6.1 was released which restored Save button, but otherwise no changes and still dangerous.
+Starting from 2016, users in Chrome Store reports redirection to lnkr.us or free-merchants.com. More malicious codes might be added in future. If you are using Chromarks, please stop using it. If your friends are using it, please tell them to stop using it.
