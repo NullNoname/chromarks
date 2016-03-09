@@ -1,1 +1,131 @@
-body,input,select,button{font:menu;font-size:8pt}#nav{margin:0 auto;padding:4px 0}#nav ul{display:inline;padding:0;margin:0}#nav li{display:inline;background-color:#fff;cursor:pointer;margin:0;padding:4px 6px;border:1px solid #abc}#nav li.selected{border-bottom:1px solid #fff}#nav li.notSelected{background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f0f5fc),color-stop(1,#e0e9f4));background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(0,0,96%)),color-stop(0.41,hsl(0,0,92%)))}#nav li.notSelected:hover{background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f6fafe),color-stop(1,#e3ebf7));background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(215,67%,96%)),color-stop(0.41,hsl(213,48%,92%)))}#nav li.notSelected:active{background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#e0e9f4),color-stop(1,#f5f9f4))}#nav li a{text-decoration:none;font-weight:bold;color:#4e607d}#content{margin:0 auto 10px;padding:10px;background-color:#fff;border:1px solid #abc}.cssForm .formRow{clear:left;margin:0;padding:5px 0 8px 160px;font-size:9pt;white-space:nowrap}.cssForm label{float:left;margin-left:-160px;width:140px;text-align:right;font-weight:bold;font-size:10pt}.cssForm select{vertical-align:top}.cssForm input[type="text"]{font:menu;font-size:8pt;padding:1px}#footer #saveButton{float:right}#footer button{width:80px;display:inline-block;margin-top:16px;margin-bottom:16px;padding:6px;border:1px solid #abc;border-radius:2px;font-weight:bold;background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f0f5fc),color-stop(1,#e0e9f4));background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(0,0,96%)),color-stop(0.41,hsl(0,0,92%)))}#footer button:hover{background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f6fafe),color-stop(1,#e3ebf7));background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(215,67%,96%)),color-stop(0.41,hsl(213,48%,92%)))}#footer button:active{background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#e0e9f4),color-stop(1,#f5f9f4))}#saved{display:none;width:100px;padding:6px;border-radius:2px;font-weight:bold;background-color:#9f6;border:1px solid #6c3;color:#360}#notSaved{display:none;width:100px;padding:6px;border-radius:2px;font-weight:bold;background-color:#f2dede;border:1px solid #ebccd1;color:#a94442}
+body,input,select,button
+{
+	font: menu;
+	font-size: 8pt;
+}
+#nav
+{
+	margin: 0 auto;
+	padding: 4px 0;
+}
+#nav ul
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+#nav li
+{
+	display: inline;
+	background-color: #fff;
+	cursor: pointer;
+	margin: 0;
+	padding: 4px 6px;
+	border: 1px solid #abc;
+}
+#nav li.selected
+{
+	border-bottom: 1px solid #fff;
+}
+#nav li.notSelected
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f0f5fc),color-stop(1,#e0e9f4));
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(0,0,96%)),color-stop(0.41,hsl(0,0,92%)));
+}
+#nav li.notSelected:hover
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f6fafe),color-stop(1,#e3ebf7));
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(215,67%,96%)),color-stop(0.41,hsl(213,48%,92%)));
+}
+#nav li.notSelected:active
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#e0e9f4),color-stop(1,#f5f9f4));
+}
+#nav li a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #4e607d;
+}
+#content
+{
+	margin: 0 auto 10px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #abc;
+}
+.cssForm .formRow
+{
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 160px;
+	font-size: 9pt;
+	white-space: nowrap;
+}
+.cssForm label
+{
+	float: left;
+	margin-left: -160px;
+	width: 140px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.cssForm select
+{
+	vertical-align: top;
+}
+.cssForm input[type="text"]
+{
+	font: menu;
+	font-size: 8pt;
+	padding: 1px;
+}
+#footer #saveButton
+{
+	float: right;
+}
+#footer button
+{
+	width: 80px;
+	display: inline-block;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 6px;
+	border: 1px solid #abc;
+	border-radius: 2px;
+	font-weight: bold;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f0f5fc),color-stop(1,#e0e9f4));
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(0,0,96%)),color-stop(0.41,hsl(0,0,92%)));
+}
+#footer button:hover
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f6fafe),color-stop(1,#e3ebf7));
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(0.4,hsl(215,67%,96%)),color-stop(0.41,hsl(213,48%,92%)));
+}
+#footer button:active
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#e0e9f4),color-stop(1,#f5f9f4));
+}
+#saved
+{
+	display: none;
+	width: 100px;
+	padding: 6px;
+	border-radius: 2px;
+	font-weight: bold;
+	background-color: #9f6;
+	border: 1px solid #6c3;
+	color: #360;
+}
+#notSaved
+{
+	display: none;
+	width: 100px;
+	padding: 6px;
+	border-radius: 2px;
+	font-weight: bold;
+	background-color: #f2dede;
+	border: 1px solid #ebccd1;
+	color: #a94442;
+}
