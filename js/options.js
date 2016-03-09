@@ -51,7 +51,7 @@ function initData() {
         $("#bookmarksKeepPopupOpen").prop(b, opts.keepPopupOpen);
         $("#bookmarksSortBy").find("option[value='" + opts.sortBy + "']").prop(a, true);
         $("#bookmarksSortOrder").prop("disabled", opts.sortBy === "none");
-        $("#bookmarksSortOrder").find("option[value='" + opts.sortOrder + "']").prop(a, true);
+        $("#bookmarksSortOrder").prop(b, opts.sortOrder === "DESC");
         $("#bookmarksShowFavIcons").prop(b, opts.showFavIcons);
         $("#bookmarksShowTooltips").prop(b, opts.showTooltips);
         $("#bookmarksSaveTreeState").prop(b, opts.saveTreeState);
@@ -67,7 +67,7 @@ function saveOptions() {
             openInNewTab: $("#bookmarksOpenNewTab").prop("checked"),
             keepPopupOpen: $("#bookmarksKeepPopupOpen").prop("checked"),
             sortBy: $("#bookmarksSortBy").val(),
-            sortOrder: $("#bookmarksSortOrder").val(),
+            sortOrder: $("#bookmarksSortOrder").prop("checked") ? "DESC" : "ASC",
             showFavIcons: $("#bookmarksShowFavIcons").prop("checked"),
             showTooltips: $("#bookmarksShowTooltips").prop("checked"),
             saveTreeState: $("#bookmarksSaveTreeState").prop("checked"),

@@ -85,7 +85,7 @@
    },
    "optionsBookmarksSortOrder": {
       "description": "Text for Sort Order label in Bookmarks form",
-      "message": "並び替え方向:"
+      "message": "降順に並び替え:"
    },
    "optionsBookmarksSortOrderAscending": {
       "description": "Text for Sort Order Ascending value in Bookmarks form",

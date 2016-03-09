@@ -85,7 +85,7 @@
    },
    "optionsBookmarksSortOrder": {
       "description": "Text for Sort Order label in Bookmarks form",
-      "message": "Sort Order:"
+      "message": "Descending Sort:"
    },
    "optionsBookmarksSortOrderAscending": {
       "description": "Text for Sort Order Ascending value in Bookmarks form",
