@@ -7,7 +7,6 @@ You can read what Chromarks 2.6.0, 2.6.1 and newer does in the following branch:
 * Disabled Google Analytics completely.
 * When opening options, the Bookmarks options tab is opened by default.
 * Japanese language file added.
-* Popup size restriction removed.
 * Does not use combobox in settings screen anymore because they appear to have issues in recent versions of Google Chrome.
 
 ## Installation
