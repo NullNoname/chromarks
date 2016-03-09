@@ -58,18 +58,25 @@ body,input,select,button
 {
 	clear: left;
 	margin: 0;
-	padding: 5px 0 8px 160px;
+	padding: 5px 0 8px 190px;
 	font-size: 9pt;
 	white-space: nowrap;
 }
-.cssForm label
+.formLabel
 {
 	float: left;
-	margin-left: -160px;
-	width: 140px;
+	margin-left: -190px;
+	width: 170px;
 	text-align: right;
 	font-weight: bold;
 	font-size: 10pt;
+}
+.radioP
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .cssForm select
 {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
+    <head>
         <meta charset="UTF-8">
         <title>Chromarks - Options</title>
 
@@ -19,15 +19,15 @@
             <div id="about">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="aboutVersionLabel" for="aboutVersion" data-text="optionsAboutVersion"></label>
+                        <label class="formLabel" id="aboutVersionLabel" for="aboutVersion" data-text="optionsAboutVersion"></label>
                         <span id="aboutVersion"></span>
                     </div>
                     <div class="formRow">
-                        <label id="aboutVersionHistoryLabel" for="aboutVersionHistory" data-text="optionsAboutVersionHistory"></label>
+                        <label class="formLabel" id="aboutVersionHistoryLabel" for="aboutVersionHistory" data-text="optionsAboutVersionHistory"></label>
                         <a id="aboutVersionHistory" href="https://github.com/NullNoname/chromarks/commits/unofficial" target="_blank">https://github.com/NullNoname/chromarks/commits/unofficial</a>
                     </div>
                     <div class="formRow">
-                        <label id="aboutLegalLabel" for="aboutLegal" data-text="optionsAboutLegalNotice"></label>
+                        <label class="formLabel" id="aboutLegalLabel" for="aboutLegal" data-text="optionsAboutLegalNotice"></label>
                         <div id="aboutLegal">
                             Chromarks<br/>
                             Copyright (c) 2013, James Nuzzi<br/>
@@ -54,51 +54,49 @@
             <div id="view">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="viewWidthLabel" for="viewWidth" data-text="optionsViewPopupWidth"></label>
-                        <input type="number" min="180" max="800" step="1" name="viewWidth" id="viewWidth" /><span> (180 - 800)</span>
+                        <label class="formLabel" id="viewWidthLabel" for="viewWidth" data-text="optionsViewPopupWidth"></label>
+                        <input type="number" step="1" name="viewWidth" id="viewWidth" /><span></span>
                     </div>
                     <div class="formRow">
-                        <label id="viewHeightLabel" for="viewHeight" data-text="optionsViewPopupHeight"></label>
-                        <input type="number" min="240" max="600" step="1" name="viewHeight" id="viewHeight" /><span> (240 - 600)</span>
+                        <label class="formLabel" id="viewHeightLabel" for="viewHeight" data-text="optionsViewPopupHeight"></label>
+                        <input type="number" step="1" name="viewHeight" id="viewHeight" /><span></span>
                     </div>
                 </div>
             </div>
             <div id="bookmarks">
                 <div class="cssForm">
                     <div class="formRow">
-                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab" data-text="optionsBookmarksOpenNewTab"></label>
+                        <label class="formLabel" id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab" data-text="optionsBookmarksOpenNewTab"></label>
                         <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen" data-text="optionsBookmarksKeepPopupOpen"></label>
+                        <label class="formLabel" id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen" data-text="optionsBookmarksKeepPopupOpen"></label>
                         <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSortByLabel" for="bookmarksSortBy" data-text="optionsBookmarksSortBy"></label>
-                        <select name="bookmarksSortBy" id="bookmarksSortBy">
-                            <option id="bookmarksSortByNone" value="none" data-text="optionsBookmarksSortByNone"></option>
-                            <option id="bookmarksSortByName" value="text" data-text="optionsBookmarksSortByName"></option>
-                            <option id="bookmarksSortByDate" value="date" data-text="optionsBookmarksSortByDate"></option>
-                        </select>
+                        <label class="formLabel" id="bookmarksSortByLabel" for="bookmarksSortBy" data-text="optionsBookmarksSortBy"></label>
+                        <p class="radioP"><input type="radio" name="bookmarksSort" id="bookmarksSortByNone" value="none"> <label id="bookmarksSortByNoneLabel" data-text="optionsBookmarksSortByNone" /></input></p>
+                        <p class="radioP"><input type="radio" name="bookmarksSort" id="bookmarksSortByName" value="text"> <label id="bookmarksSortByNameLabel" data-text="optionsBookmarksSortByName" /></input></p>
+                        <p class="radioP"><input type="radio" name="bookmarksSort" id="bookmarksSortByDate" value="date"> <label id="bookmarksSortByDateLabel" data-text="optionsBookmarksSortByDate" /></input></p>
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder" data-text="optionsBookmarksSortOrder"></label>
+                        <label class="formLabel" id="bookmarksSortOrderLabel" for="bookmarksSortOrder" data-text="optionsBookmarksSortOrder"></label>
                         <input type="checkbox" name="bookmarksSortOrder" id="bookmarksSortOrder">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons" data-text="optionsBookmarksShowFavIcons"></label>
+                        <label class="formLabel" id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons" data-text="optionsBookmarksShowFavIcons"></label>
                         <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips" data-text="optionsBookmarksShowTooltips"></label>
+                        <label class="formLabel" id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips" data-text="optionsBookmarksShowTooltips"></label>
                         <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState" data-text="optionsBookmarksSaveTreeState"></label>
+                        <label class="formLabel" id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState" data-text="optionsBookmarksSaveTreeState"></label>
                         <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState">
                     </div>
                     <div class="formRow">
-                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar" data-text="optionsBookmarksOpenBookmarksBar"></label>
+                        <label class="formLabel" id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar" data-text="optionsBookmarksOpenBookmarksBar"></label>
                         <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar">
                     </div>
                 </div>
