@@ -69,3 +69,5 @@ On March 2016, a very similar takeover has happened to a popular Chrome extensio
 Because of Chromarks' takeover being near identical to Better History's, I can conclude that the original Chromarks author James Nuzzi sold this extension to malware vendors, likely advault.net or its affiliates.
 
 Sadly, it turns out the case like this is not too unusual: http://www.makeuseof.com/tag/x-malicious-browser-extensions-help-hackers-target-victims/
+
+Chrome Web Store will require the developers to be more transparent about the user's privacy (https://yro.slashdot.org/story/16/04/15/1910230/google-updates-chrome-web-store-policy-requires-devs-to-be-more-transparent-about-user-data). Starting from July 15th, 2016, extensions that don't comply with the new Chrome Web Store policy will be removed. The Chromarks's options menu or the website (chromarks.NET) do not have any Privacy Policy pages, so hopefully Google will do something to this mess.
