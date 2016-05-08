@@ -1,7 +1,7 @@
 # Chromarks 2.6.1
 Getting a green 'Page is present in your bookmarks' banner? Got redirect to lnkr.us or free-merchants.com? If yes, do you have Chromarks 2.6.0 or newer installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, UNINSTALL IT, AND PLEASE REPORT ABUSE TO GOOGLE!! Chromarks was taken over by the malware vendors. Look at "What happened to Chromarks, anyway?" at the end of this page.
 
-This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which contain dangerous permissions and malicious codes. I recommend you to NOT INSTALL THIS. Chromarks 2.6.0, released in November 10, 2015, was the first malicious version.
+This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which contain dangerous permissions and malicious codes. I recommend you to NOT INSTALL THIS. Chromarks 2.6.0, released in November 10, 2015, was the first malicious version. As of May 8, 2016, Chromarks 2.6.1 was removed from the Chrome store.
 
 If you loved original Chromarks (or Chrookmarks), please consider manually installing my unofficial branch which is based on the last-good version (2.5.0):
 https://github.com/NullNoname/chromarks/tree/unofficial
@@ -63,6 +63,8 @@ https://www.gnu.org/licenses/gpl.html
 
 * Starting from 2016, users in Chrome Store reports redirection to lnkr.us or free-merchants.com.
 
+* As of May 8, 2016, Chromarks 2.6.1 was removed from the Chrome store. The chromarks.NET site remain and still linked to the now-defunct Chrome store page.
+
 ## What happened to Chromarks, anyway?
 On March 2016, a very similar takeover has happened to a popular Chrome extension "Better History" (https://github.com/better-history/better-history/issues/330) and it comes with the same redirection scheme to lnkr.us (https://www.reddit.com/r/Malware/comments/4cw9fz/lnkrus_redirect_malware_report/).
 
@@ -70,4 +72,6 @@ Because of Chromarks' takeover being near identical to Better History's, I can c
 
 Sadly, it turns out the case like this is not too unusual: http://www.makeuseof.com/tag/x-malicious-browser-extensions-help-hackers-target-victims/
 
-Chrome Web Store will require the developers to be more transparent about the user's privacy (https://yro.slashdot.org/story/16/04/15/1910230/google-updates-chrome-web-store-policy-requires-devs-to-be-more-transparent-about-user-data). Starting from July 15th, 2016, extensions that don't comply with the new Chrome Web Store policy will be removed. The Chromarks's options menu or the website (chromarks.NET) do not have any Privacy Policy pages, so hopefully Google will do something to this mess.
+Chrome Web Store will require the developers to be more transparent about the user's privacy (https://yro.slashdot.org/story/16/04/15/1910230/google-updates-chrome-web-store-policy-requires-devs-to-be-more-transparent-about-user-data). Starting from July 15th, 2016, extensions that don't comply with the new Chrome Web Store policy will be removed. The Chromarks's options menu or the website (chromarks.NET) do not have any Privacy Policy pages.
+
+The malicious version of Chromarks was deleted from Chrome Store as of May 8, 2016, either by its authors or Google.
