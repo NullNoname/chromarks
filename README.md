@@ -1,10 +1,13 @@
 # Chromarks 2.6.1
-Getting a green 'Page is present in your bookmarks' banner? Got redirect to lnkr.us or free-merchants.com? If yes, do you have Chromarks 2.6.0 or newer installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! GIVE IT A 1 STAR RATING WITH A WARNING COMMENT, UNINSTALL IT, AND PLEASE REPORT ABUSE TO GOOGLE!! Chromarks was taken over by the malware vendors. Look at "What happened to Chromarks, anyway?" at the end of this page.
+Getting a green 'Page is present in your bookmarks' banner? Got redirect to lnkr.us or free-merchants.com? If yes, do you have Chromarks 2.6.0 or 2.6.1 installed? If so... YOU ARE AT A SERIOUS SECURITY RISK! UNINSTALL NOW!! Chromarks was taken over by the malware vendors. Look at "What happened to Chromarks, anyway?" at the end of this page.
 
 This branch is mirror of Chromarks 2.6.1 released in November 19, 2015, which contain dangerous permissions and malicious codes. I recommend you to NOT INSTALL THIS. Chromarks 2.6.0, released in November 10, 2015, was the first malicious version. As of May 8, 2016, Chromarks 2.6.1 was removed from the Chrome store.
 
 If you loved original Chromarks (or Chrookmarks), please consider manually installing my unofficial branch which is based on the last-good version (2.5.0):
 https://github.com/NullNoname/chromarks/tree/unofficial
+
+The original author has a GitHub account and a full source code repository, but it hasn't updated since Chrookmarks 1.5.0:
+https://github.com/cruisencode/Chrookmarks
 
 ## File structure changes from 2.5.0 to 2.6.0
 * renamed:js/background.js -> background.js
