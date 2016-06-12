@@ -10,7 +10,21 @@ Open Source License
 ------------------------------------------------------------------------------------------
 This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.
 
-http://www.gnu.org/licenses/gpl.html
+https://www.gnu.org/licenses/gpl.html
+
+Chromarks uses the following MIT licensed open source libraries (https://tldrlegal.com/license/mit-license):
+
+jQuery v2.1.4
+(c) 2005, 2015 jQuery Foundation, Inc.
+https://jquery.org
+
+jQuery UI v1.11.4 (2015-06-19)
+Copyright 2015 jQuery Foundation and other contributors
+https://jqueryui.com
+
+jsTree 3.2.1
+Copyright (c) 2014 Ivan Bozhanov (http://vakata.com)
+https://www.jstree.com
 
 --
 

@@ -62,6 +62,14 @@ body,input,select,button
 	font-size: 9pt;
 	white-space: nowrap;
 }
+.cssForm .aboutRow
+{
+	clear: left;
+	margin: 0;
+	padding: 1px 0 8px 190px;
+	font-size: 9pt;
+	white-space: nowrap;
+}
 .formLabel
 {
 	float: left;
