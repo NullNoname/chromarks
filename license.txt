@@ -26,6 +26,10 @@ jsTree 3.2.1
 Copyright (c) 2014 Ivan Bozhanov (http://vakata.com)
 https://www.jstree.com
 
+async
+Copyright 2010-2014 Caolan McMahon
+https://github.com/caolan/async
+
 --
 
 Chromarks is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS.  See the GNU General Public License for more details.

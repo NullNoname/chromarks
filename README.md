@@ -14,5 +14,7 @@ You can download this extension by clicking "Download ZIP" button at the top of 
 More Info: https://developer.chrome.com/extensions/getstarted#unpacked
 
 ## License
-License is GNU General Public License version 3, as noted in license.txt.
+License of main Chromarks codes are GNU General Public License version 3.
 https://www.gnu.org/licenses/gpl.html
+
+Chromarks uses several MIT licensed libraries. See license.txt for more info.
