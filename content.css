@@ -1,0 +1,27 @@
+#chromarks_page_informer{
+    position: fixed;
+    height: 24px;
+    padding-top: 10px;
+    background-color: rgba(142, 255, 186, 0.7);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 14px;
+    z-index: 99999;
+}
+#chromarks_page_informer .close_magyar_fb_informer{
+    padding-left: 25px;
+    float: right;
+    color: #B34C4C;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+}
+#chromarks_page_informer .close_magyar_fb_informer:hover{
+    text-decoration: none;
+}
