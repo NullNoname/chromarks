@@ -44,26 +44,20 @@ function initData() {
 
   $("#aboutVersion").text(chrome.runtime.getManifest().version);
 
-  var options = {
-    'openInNewTab': true,
-    'keepPopupOpen': false,
-    'sortBy': 'text',
-    'sortOrder': 'ASC',
-    'showFavIcons': true,
-    'showTooltips': true,
-    'saveTreeState': false,
-    'openBookmarksBar': true,
-    'searchDelay': 250,
-    'popupWidth': '360',
-    'popupHeight': '600',
-    'deleteWithoutConfirmation': false,
-    'textSize': 11,
-    'notificationPages': false,
-    'recentNum': 15,
-    'closeExpandedFolders': true
-    };
-    chrome.storage.sync.get({
-    'options': options
+  chrome.storage.sync.get({
+    'options': {
+      'openInNewTab': true,
+      'keepPopupOpen': false,
+      'sortBy': 'text',
+      'sortOrder': 'ASC',
+      'showFavIcons': true,
+      'showTooltips': true,
+      'saveTreeState': false,
+      'openBookmarksBar': true,
+      'searchDelay': 250,
+      'popupWidth': '360',
+      'popupHeight': '600'
+    }
   }, function (items) {
     opts = items.options;
 
@@ -76,11 +70,6 @@ function initData() {
     $("#bookmarksShowTooltips").prop(checked, opts.showTooltips);
     $("#bookmarksSaveTreeState").prop(checked, opts.saveTreeState);
     $("#bookmarksOpenBookmarksBar").prop(checked, opts.openBookmarksBar);
-    $("#bookmarksDeleteConfirmationDialog").prop(checked, !opts.deleteWithoutConfirmation);
-    $("#bookmarksTextSizeDialog").find("option[value='" + opts.textSize + "']").prop(selected, true);
-    $("#bookmarksNotifPagesDialog").prop(checked, opts.notificationPages);
-    $("#bookmarksRecentNumDialog").val(opts.recentNum);
-    $("#bookmarksCloseExpFoldersDialog").prop(checked, opts.closeExpandedFolders);
 
     $("#viewWidth").val(opts.popupWidth);
     $("#viewHeight").val(opts.popupHeight);
@@ -98,21 +87,15 @@ function saveOptions() {
       'showTooltips': $("#bookmarksShowTooltips").prop('checked'),
       'saveTreeState': $("#bookmarksSaveTreeState").prop('checked'),
       'openBookmarksBar': $("#bookmarksOpenBookmarksBar").prop('checked'),
-      'deleteWithoutConfirmation': !$("#bookmarksDeleteConfirmationDialog").prop('checked'),
       'searchDelay': 250,
       'popupWidth': $("#viewWidth").val(),
-      'popupHeight': $("#viewHeight").val(),
-      'textSize': $("#bookmarksTextSizeDialog").val(),
-      'notificationPages': $("#bookmarksNotifPagesDialog").prop('checked'),
-      'recentNum': ($("#bookmarksRecentNumDialog").val() > 50 ? 50 :  $("#bookmarksRecentNumDialog").val()),
-      closeExpandedFolders: $("#bookmarksCloseExpFoldersDialog").prop('checked')
+      'popupHeight': $("#viewHeight").val()
     }
   }, function () {
     if (chrome.runtime.lastError) {
       $("#notSaved").stop(false, true).fadeIn("fast").fadeOut(4000);
     } else {
       $("#saved").stop(false, true).fadeIn("fast").fadeOut(2500);
-      chrome.runtime.sendMessage( 'options');
     }
   });
 }

@@ -2,218 +2,110 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title>Chromarks Plus- Options</title>
+        <title>Chromarks - Options</title>
 
         <link rel="stylesheet" href="css/options.css" />
-		<link rel="stylesheet" href="themes/proton/bootstrap.min.css" />
-		
-			
     </head>
     <body>
-	<!-- Nav tabs -->
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#bookmarks" data-toggle="tab">Bookmarks</a></li>
-  <li><a href="#view" data-toggle="tab">View</a></li>
-  <li><a href="#about" data-toggle="tab">About</a></li>
-</ul>
+        <nav id="nav">
+            <ul>
+                <li><a id="bookmarksTab" href="#bookmarks">Bookmarks</a></li>
+                <li><a id="viewTab" href="#view">View</a></li>
+                <li><a id="aboutTab" href="#about">About</a></li>
+            </ul>
+        </nav>
+        <section id="content">
+            <div id="bookmarks">
+                <div class="cssForm">
+                    <div class="formRow">
+                        <label id="bookmarksOpenNewTabLabel" for="bookmarksOpenNewTab">Open in New Tab:</label>
+                        <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksKeepPopupOpenLabel" for="bookmarksKeepPopupOpen">Keep Popup Open:</label>
+                        <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSortByLabel" for="bookmarksSortBy">Sort By:</label>
+                        <select name="bookmarksSortBy" id="bookmarksSortBy">
+                            <option id="bookmarksSortByNone" value="none">None</option>
+                            <option id="bookmarksSortByName" value="text">Name</option>
+                            <option id="bookmarksSortByDate" value="date">Date</option>
+                        </select>
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSortOrderLabel" for="bookmarksSortOrder">Sort Order:</label>
+                        <select name="bookmarksSortOrder" id="bookmarksSortOrder">
+                            <option id="bookmarksSortOrderAscending" value="ASC">Ascending</option>
+                            <option id="bookmarksSortOrderDescending" value="DESC">Descending</option>
+                        </select>
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksShowFavIconsLabel" for="bookmarksShowFavIcons">Show FavIcons:</label>
+                        <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksShowTooltipsLabel" for="bookmarksShowTooltips">Show Tooltips:</label>
+                        <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksSaveTreeStateLabel" for="bookmarksSaveTreeState">Save Tree State:</label>
+                        <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState">
+                    </div>
+                    <div class="formRow">
+                        <label id="bookmarksOpenBookmarksBarLabel" for="bookmarksOpenBookmarksBar">Open "Bookmarks bar":</label>
+                        <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar">
+                    </div>
+                </div>
+            </div>
+            <div id="view">
+                <div class="cssForm">
+                    <div class="formRow">
+                        <label id="viewWidthLabel" for="viewWidth">Popup Width (px):</label>
+                        <input type="number" min="180" max="800" step="1" name="viewWidth" id="viewWidth" /><span> (180 - 800)</span>
+                    </div>
+                    <div class="formRow">
+                        <label id="viewHeightLabel" for="viewHeight">Popup Height (px):</label>
+                        <input type="number" min="240" max="600" step="1" name="viewHeight" id="viewHeight" /><span> (240 - 600)</span>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <div class="cssForm">
+                    <div class="formRow">
+                        <label id="aboutVersionLabel" for="aboutVersion">Version</label>
+                        <span id="aboutVersion"></span>
+                    </div>
+                    <div class="formRow">
+                        <label id="aboutSiteLabel" for="aboutSite">Site:</label>
+                        <a id="aboutSite" href="http://chromarks.net" target="_blank">http://chromarks.net</a>
+                    </div>
+                    <div class="formRow">
+                        <label id="aboutLegalLabel" for="aboutLegal">Legal Notice:</label>
+                        <div id="aboutLegal">
+                            Open Source License<br/>
+                            ------------------------------------------------------------------------------------------<br/>
+                            This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.<br/>
+                            <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">http://www.gnu.org/licenses/gpl.html</a><br/>
+                            --<br/>
+                            Chromarks is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
+                            without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,<br />
+                            AND NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS.  See the GNU General<br />
+                            Public License for more details.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="saveButton">
+                <span id="saved">Options saved</span>
+                <span id="notSaved">Save Failed</span>
+                <button id="save">Save</button>
+            </div>
+        </footer>
 
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane active" id="bookmarks">
-		<form class="form-horizontal">					
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksOpenNewTab" id="bookmarksOpenNewTab"> Open in New Tab				
-					</label>
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksKeepPopupOpen" id="bookmarksKeepPopupOpen"> Keep Popup Open					
-					</label>
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksShowFavIcons" id="bookmarksShowFavIcons"> Show FavIcons					  	
-					</label>
-				  </div>
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksShowTooltips" id="bookmarksShowTooltips"> Show Tooltips				  
-					</label>
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksSaveTreeState" id="bookmarksSaveTreeState"> Save Tree State					  	
-					</label>
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksOpenBookmarksBar" id="bookmarksOpenBookmarksBar"> Open "Bookmarks bar"				  	
-					</label>
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksDeleteConfirmationDialog" id="bookmarksDeleteConfirmationDialog"> Delete Confirmation Dialog				  	
-					</label>					
-				  </div>
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksNotifPagesDialog" id="bookmarksNotifPagesDialog"> Notification pages
-					</label>					
-				  </div>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-10">
-				  <div class="checkbox">
-					<label>
-					  <input type="checkbox" name="bookmarksCloseExpFoldersDialog" id="bookmarksCloseExpFoldersDialog"> Close expanded folders				  	
-					</label>					
-				  </div>
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Sort By</label>
-				<div class="col-xs-7">
-				   <select name="bookmarksSortBy" id="bookmarksSortBy" class="form-control">
-						<option id="bookmarksSortByNone" value="none">None</option>
-						<option id="bookmarksSortByName" value="text">Name</option>
-						<option id="bookmarksSortByDate" value="date">Date</option>
-				  </select>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Sort Order</label>
-				<div class="col-xs-7">
-				   <select name="bookmarksSortOrder" id="bookmarksSortOrder" class="form-control">
-						<option id="bookmarksSortOrderAscending" value="ASC">Ascending</option>
-						<option id="bookmarksSortOrderDescending" value="DESC">Descending</option>
-				  </select>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Text Size</label>
-				<div class="col-xs-7">
-				   <select name="bookmarksTextSizeDialog" id="bookmarksTextSizeDialog" class="form-control">
-						<option value="8">8px</option>
-						<option value="9">9px</option>
-						<option value="10">10px</option>
-						<option value="11">11px</option>
-						<option value="12">12px</option>
-						<option value="13">13px</option>
-						<option value="14">14px</option>
-						<option value="15">15px</option>
-						<option value="16">16px</option>
-						<option value="17">17px</option>
-						<option value="18">18px</option>
-						<option value="19">19px</option>
-						<option value="20">20px</option>
-						<option value="21">21px</option>
-						<option value="22">22px</option>
-						<option value="23">23px</option>
-						<option value="24">24px</option>
-				  </select>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Number of recent(10 - 50)</label>
-				<div class="col-xs-7">
-					<input type="number" min="10" max="50" class="form-control" name="bookmarksRecentNumDialog" id="bookmarksRecentNumDialog"><span> </span>
-				</div>
-			</div>		
-		</form>
-  </div>
-  <div class="tab-pane" id="view">
-	<form class="form-horizontal">
-		<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Popup Width (px)</label>
-				<div class="col-xs-3">					
-					<input type="number" min="180" max="800" step="1" class="form-control"  name="viewWidth" id="viewWidth" />
-				</div>
-				<div class="col-xs-4">
-					(180 - 800)
-				</div>
-		</div>
-		<div class="form-group">
-				<label for="inputEmail3" class="col-xs-5 control-label">Popup Height (px)</label>
-				<div class="col-xs-3">					
-					<input type="number" min="240" max="600" step="1" class="form-control" name="viewHeight" id="viewHeight" />
-				</div>
-				<div class="col-xs-4">
-					(240 - 600)
-				</div>
-		</div>		
-	</form>
-  </div>
-  <div class="tab-pane" id="about">
-	<div class="cssForm">
-		<div class="formRow">
-			<label id="aboutVersionLabel" for="aboutVersion">Version</label>
-			<span id="aboutVersion"></span>
-		</div>
-		
-		<div class="formRow">
-			<label id="aboutLegalLabel" for="aboutLegal">Legal Notice:</label>
-			<div id="aboutLegal">
-				Open Source License<br/>
-				------------------------------------------------------------------------------------------<br/>
-				This version of Chromarks Plus is licensed under the terms of the Open Source GPL 3.0 license.<br/>
-				<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">http://www.gnu.org/licenses/gpl.html</a><br/>
-				--<br/>
-				Chromarks Plus is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
-				without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,<br />
-				AND NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS.  See the GNU General<br />
-				Public License for more details.
-			</div>
-		</div>
-	</div>
-  </div>
-
-</div>
-<footer id="footer">
-	<div id="saveButton">
-		<span id="saved">Options saved</span>
-		<span id="notSaved">Save Failed</span>				
-	</div>
-	<button  id="save" type="button" class="btn btn-default">Save</button>
-</footer>
-
-        <script src="jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script> 		
-
+        <script src="jquery.js"></script>
         <script src="options.js"></script>
     </body>
 </html>

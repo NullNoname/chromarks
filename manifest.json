@@ -1,36 +1,69 @@
 {
-   "background": {
-      "page": "background.html"
-   },
-   "browser_action": {
-      "default_icon": "icons/icon-24.png",
-      "default_popup": "popup.html",
-      "default_title": "Chromarks Plus"
-   },
-   "content_scripts": [ {
-      "all_frames": true,
-      "css": [ "content.css" ],
-      "js": [ "jquery.min.js", "content.js" ],
-      "matches": [ "*://*/*" ],
-      "run_at": "document_start"
-   } ],
-   "content_security_policy": "script-src 'self' 'unsafe-eval'  https://ssl.google-analytics.com; object-src 'self'",
-   "description": "Chrookmarks Plus - Popup bookmarks manager. Easy and fast management of your bookmarks",
-   "icons": {
-      "128": "icons/icon-128.png",
-      "16": "icons/icon-16.png",
-      "48": "icons/icon-48.png"
-   },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgjYbowt/adFU6nc6bIVmUF30Dp6i3wt559AXNJpP4Fc2qxjRMA1XLq/7dOmEV7OjONq/fEtHGGCjF4LtW8e+c4Fjz28hocV64GC6Gos502zW04ahvxI4O+qCkEKYVfaPzpXKuNCLG/cwgFrjbiG9OKOy5jQ3Syxm+apKTBoT4M7ABRcd36/cc6LyW7+WKMS32enGy0jfoTqEkuFPD1Fga1K8j9pQCWcDDV9X1zcjn2bxnrnlZ4H5LaDD7xOtO37wmmDUf8IEL3V3ehzbLJo938BRlif2lJ3W/LnU6GpAjYVTeEBlQcgHWbqEVK5R6GjOXtPLaN6lunCnlNeQA1jzKQIDAQAB",
-   "manifest_version": 2,
-   "minimum_chrome_version": "40",
-   "name": "Chromarks Plus - Chrome Bookmarks Manager",
-   "options_ui": {
-      "chrome_style": true,
-      "page": "options.html"
-   },
-   "permissions": [ "bookmarks", "chrome://favicon/", "storage" ],
-   "short_name": "Chromarks",
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.1"
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Chromarks - Chrome Bookmarks Menu",
+  "version": "2.6.1",
+  "description": "Formerly Chrookmarks - Popup a bookmarks menu with the click of a button.  Manage your bookmarks right from the bookmarks menu",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon-19.png",
+    "default_title": "Chromarks",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page" : "background.html"
+  },
+  "content_security_policy" : "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "minimum_chrome_version": "40",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions"             : [
+    "activeTab",
+    "alarms",
+    "bookmarks",
+    "browsingData",
+    "chrome://favicon/",
+    "clipboardWrite",
+    "contextMenus",
+    "cookies",
+    "declarativeContent",
+    "fontSettings",
+    "gcm",
+    "identity",
+    "idle",
+    "management",
+    "notifications",
+    "pageCapture",
+    "power",
+    "proxy",
+    "sessions",
+    "storage",
+    "system.cpu",
+    "system.display",
+    "system.memory",
+    "system.storage",
+    "tabCapture",
+    "tts",
+    "unlimitedStorage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ],
+  "content_scripts"         : [
+    {
+      "matches"    : [ "*://*/*" ],
+      "css"        : [ ],
+      "js"         : [ "jquery.js", "content.js" ],
+      "run_at"     : "document_start",
+      "all_frames" : true
+    }
+  ],
+  "short_name": "Chromarks"
 }

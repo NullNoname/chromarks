@@ -7,13 +7,12 @@ body {
   font-size: 11px;
   font-weight: 600;
   text-align: left;
-  /*overflow: hidden;*/
 }
 
 #wrapper {
   margin: 0;
   padding: 0;
- /* border: 1px solid #99bce8;*/
+  border: 1px solid #99bce8;
   overflow-x: hidden;
 }
 
@@ -67,7 +66,7 @@ body {
   margin: 0;
   padding: 1px 3px 2px 18px;
   line-height: 15px;
-  background: url("/icons/search.png?1") 1px 50% no-repeat white;
+  background: url("/icons/search.png") 1px 50% no-repeat white;
   border: solid 1px #b5b8c8;
   outline: none;
   vertical-align: middle;
@@ -80,8 +79,8 @@ body {
   border: none;
   width: 100%;
   height: 100%;
- /* overflow-x: hidden;
-  overflow-y: auto;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .dialog {
