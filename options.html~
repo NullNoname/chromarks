@@ -2,7 +2,7 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title>Chromarks Plus- Options</title>
+        <title>Chromarks Plus - Options</title>
 
         <link rel="stylesheet" href="css/options.css" />
 		<link rel="stylesheet" href="themes/proton/bootstrap.min.css" />
@@ -190,10 +190,10 @@
 			<div id="aboutLegal">
 				Open Source License<br/>
 				------------------------------------------------------------------------------------------<br/>
-				This version of Chromarks Plus is licensed under the terms of the Open Source GPL 3.0 license.<br/>
+				This version of Chromarks is licensed under the terms of the Open Source GPL 3.0 license.<br/>
 				<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">http://www.gnu.org/licenses/gpl.html</a><br/>
 				--<br/>
-				Chromarks Plus is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
+				Chromarks is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
 				without even the implied warranty of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,<br />
 				AND NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS.  See the GNU General<br />
 				Public License for more details.

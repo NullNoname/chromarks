@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Chromarks Plus</title>
+    <title>Chromarks</title>
 
     <link rel="stylesheet" href="themes/proton/bootstrap.min.css" />
     <link rel="stylesheet" href="themes/proton/style.css" />
@@ -12,7 +12,19 @@
 </head>
 <body>
 <div id="wrapper">
-   
+   <!-- <div id="title">
+        <ul id="toolbar">
+            <li id="bmSearch"><input type="search" name="search" id="search" incremental="incremental" autocomplete="off" placeholder="Search Bookmarks" /></li>
+            <li id="recentBmImg" class="imgButton"><img src="/icons/recent-bookmarks.png?1" title="Recent added bookmarks" alt="Recent added bookmarks" width="16" height="16" /></li>
+
+            <li id="bmManagerImg" class="imgButton"><img src="/icons/bookmark-manager.png?1" title="Bookmark Manager" alt="Bookmark Manager" width="16" height="16" /></li>
+
+            <li id="historyImg" class="imgButton"><img src="/icons/history.png?1" title="History" alt="History" width="16" height="16" /></li>
+            <li id="downloadsImg" class="imgButton"><img src="/icons/download.png?1" title="Downloads" alt="Downloads" width="16" height="16" /></li>
+            <li id="optionsImg" class="imgButton"><img src="/icons/options.png?1" title="Options" alt="Options" width="16" height="16" /></li>
+        </ul>
+    </div>-->
+
     <div class="row">
 
         <div class="col-lg-11">
