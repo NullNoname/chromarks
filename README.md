@@ -68,8 +68,10 @@ https://www.gnu.org/licenses/gpl.html
 
 * As of May 8, 2016, Chromarks 2.6.1 was removed from the Chrome store. The chromarks.NET site remain and still linked to the now-defunct Chrome store page.
 
+* On June 15, 2016, a new extension called Chromarks Plus was released. As of version 1.1 it appears harmless. (https://github.com/NullNoname/chromarks/tree/plus) The chromarks.NET site still remain and still linked to the now-defunct Chromarks 2.6.1.
+
 ## What happened to Chromarks, anyway?
-On March 2016, a very similar takeover has happened to a popular Chrome extension "Better History" (https://github.com/better-history/better-history/issues/330) and it comes with the same redirection scheme to lnkr.us (https://www.reddit.com/r/Malware/comments/4cw9fz/lnkrus_redirect_malware_report/).
+On March 2016, a very similar takeover has happened to a popular Chrome extension "Better History" (it had a github repository but vanished) and it comes with the same redirection scheme to lnkr.us (https://www.reddit.com/r/Malware/comments/4cw9fz/lnkrus_redirect_malware_report/).
 
 Because of Chromarks' takeover being near identical to Better History's, I can conclude that the original Chromarks author James Nuzzi sold this extension to malware vendors, likely advault.net or its affiliates.
 
@@ -78,3 +80,5 @@ Sadly, it turns out the case like this is not too unusual: http://www.makeuseof.
 Chrome Web Store will require the developers to be more transparent about the user's privacy (https://yro.slashdot.org/story/16/04/15/1910230/google-updates-chrome-web-store-policy-requires-devs-to-be-more-transparent-about-user-data). Starting from July 15th, 2016, extensions that don't comply with the new Chrome Web Store policy will be removed. The Chromarks's options menu or the website (chromarks.NET) do not have any Privacy Policy pages.
 
 The malicious version of Chromarks was deleted from Chrome Store as of May 8, 2016, either by its authors or Google.
+
+On June 15, 2016, a new extension called Chromarks Plus was released by an author named "denegromaria". As of version 1.1, Chromarks Plus is based on Chromarks 2.6.1 code but malicious codes and dangerous permissions removed. The relationship with the author(s) of Chromarks Plus and Chromarks 2.6.* is currently unknown.
