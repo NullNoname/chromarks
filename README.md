@@ -61,13 +61,21 @@ The following codes are from popup.js, beautified by http://jsbeautifier.org/.
             $("#bookmarks").jstree(true).search($("#search").val())
         }).focus()
 
+You can add `0.0.0.0 ssl.google-analytics.com` to your hosts file (`C:/Windows/System32/drivers/etc/hosts` or `/etc/hosts`) to disable tracking. You can also try my "Chromarks Detoxified" branch that disables this feature (See "Branches and more" in below).
+
 ## License
 License is GNU General Public License version 3, as noted in license.txt.
 https://www.gnu.org/licenses/gpl.html
 
 ## Branches and more
+Again, you can read what 2.6.0 and 2.6.1 do in the following branch.
+https://github.com/NullNoname/chromarks/tree/2.6.0
+
 There is a "Chromarks Detoxified" branch that disables analytics and has small fixes.
 https://github.com/NullNoname/chromarks/tree/unofficial
+
+The sequel/fork of this extension "Chromarks Plus" is available in the following branch.
+https://github.com/NullNoname/chromarks/tree/plus
 
 The original author has a GitHub account and a full source code repository, but it hasn't updated since Chrookmarks 1.5.0:
 https://github.com/cruisencode/Chrookmarks
