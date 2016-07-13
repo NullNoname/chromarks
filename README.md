@@ -18,6 +18,11 @@ Do note that this extension do not have any Privacy Policies (or even an officia
 
 I recommend you to add `0.0.0.0 ssl.google-analytics.com` to your hosts file (`C:/Windows/System32/drivers/etc/hosts` or `/etc/hosts`) to stay safe.
 
+## Bugs and questionable changes
+* "Bookmark Current Tab" shows a Add Bookmark dialog but name and URL fields are not filled. This is because the "tabs" permission, which is required to fetch the current tab's URL and title, is missing from this extension's manifest.
+* The search feature only highlights the matched bookmarks, unlike the original Chromarks which also hid bookmarks that did not match.
+* Options screen always displays "Options saved" text even before you click the Save button.
+
 ## File structure changes from Chromarks 2.6.1
 * modified:background.html
 * modified:background.js
