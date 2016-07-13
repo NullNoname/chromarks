@@ -1,5 +1,22 @@
 # Chromarks Plus 1.1
-This branch is mirror of Chromarks Plus 1.1 released in June 15, 2016. Currently it appears mostly harmless unlike Chromarks 2.6.0 and 2.6.1, but I'm mirroring it in the case it becomes malicious. This extension was uploaded by a user named "denegromaria", although the options screen does not have any credits.
+This branch is mirror of Chromarks Plus 1.1 released in June 15, 2016. Although it is less directly harmful than Chromarks 2.6.0 and 2.6.1, it sends every URL you visit to Google Analytics. This extension was uploaded by a user named "denegromaria", although the options screen does not have any credits.
+
+## PRIVACY WARNING
+background.js has the following code, which inserts Google Analytics to every page and sends the URL you visited to an account named `UA-79198833-1`.
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-79198833-1']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+This extension do not have any Privacy Policies (or even an official site, unlike Chromarks 2.6.*) so the URLs this extension collects can be used for any purposes.
+
+I recommend you to add `0.0.0.0 ssl.google-analytics.com` to your hosts file (`C:/Windows/System32/drivers/etc/hosts` or `/etc/hosts`) before installing and using this extension.
 
 ## File structure changes from Chromarks 2.6.1
 * modified:background.html
